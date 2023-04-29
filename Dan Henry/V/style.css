@@ -1,0 +1,225 @@
+.dhw-1964 #ProductPhoto .lightbox-img {
+    display: none;
+}
+.dhw-1964 .thumbnail-slider img {
+  width: 80px;
+  height: auto;
+  cursor: pointer;
+}
+.dhw-1964 .slider-arrow {
+    position: absolute;
+    left: 0;
+    top: 46.6%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    cursor: pointer;
+}
+.dhw-1964 .productWrapper {
+    position: relative;
+}
+.dhw-1964 .slider-arrow.next {
+    left: auto;
+    right: 0;
+}
+.dhw-1964 .productWrapper img {
+    image-rendering: -webkit-optimize-contrast;
+    cursor: pointer;
+}
+.dhw-1964 .productWrapper .slick-list.draggable,
+.productWrapper .slick-slide {
+    width: 100%;
+    max-width: 514px;
+    margin: 0 auto;
+}
+.dhw-1964 .productWrapper .slick-slide img {
+    width: 100%;
+}
+.dhw-1964 .productWrapper .slick-initialized .slick-slide {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    height: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.dhw-1964 .productWrapper .slick-track {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.dhw-1964 .productWrapper .thumbnail-slider {
+    margin-top: 20px;
+}
+.dhw-1964 .productWrapper .thumbnail-slider.slick-initialized .slick-slide {
+    margin: 0 6.5px;
+}
+.dhw-1964 .product-single #ProductPhoto.product-single__photos .hide-1964 {
+    display: none;
+}
+.dhw-1964 .productWrapper .slick-slide .one img,
+.dhw-1964 .productWrapper .slick-slide .two img {
+    display: none !important;
+}
+.dhw-1964 .productWrapper .slick-slide .one .strape-change-wrapper {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 14px;
+}
+.dhw-1964 .productWrapper .slick-slide .one .strape-change {
+    position: relative;
+    top: -8px;
+    cursor: pointer;
+}
+.dhw-1964 .productWrapper .slick-slide .one .strape-change::before {
+    content: " ";
+    width: 5px;
+    height: 5px;
+    display: block;
+    background: #d5d5d5;
+    border-radius: 30px;
+    position: absolute;
+    bottom: -6px;
+    left: -14px;
+    z-index: 9;
+}
+.dhw-1964 .productWrapper .slick-slide .one .strape-change::after {
+    content: " ";
+    width: 115%;
+    height: 1px;
+    background: #d5d5d5;
+    display: block;
+    position: absolute;
+    bottom: -4px;
+    left: -12%;
+}
+.dhw-1964 #productDetails[productname="GranTurismoWhitePandaBicompaxNoDate"] .wpb.withoutDate,
+.dhw-1964 #productDetails[productname="GranTurismoWhitePandaBicompaxDate"] .wpb.withDate,
+.dhw-1964 #productDetails[productname="GranTurismoWhitePandaBicompaxNoDateE"] .wpb.strapeImageWithoutDate,
+.dhw-1964 #productDetails[productname="GranTurismoWhitePandaBicompaxDateE"] .wpb.strapeImageWithDate,
+.dhw-1964 #productDetails[productname="GranTurismoWhitePandaBicompaxNoDateE"] .two .wpb.withoutDate,
+.dhw-1964 #productDetails[productname="GranTurismoWhitePandaBicompaxDateE"] .two .wpb.withDate{
+    display: block !important;
+}
+.dhw-1964 #productDetails[productname="GranTurismoPandaBicompaxNoDate"] .spb.withoutDate,
+.dhw-1964 #productDetails[productname="GranTurismoPandaBicompaxDate"] .spb.withDate,
+.dhw-1964 #productDetails[productname="GranTurismoPandaBicompaxNoDateE"] .spb.strapeImageWithoutDate,
+.dhw-1964 #productDetails[productname="GranTurismoPandaBicompaxDateE"] .spb.strapeImageWithDate,
+.dhw-1964 #productDetails[productname="GranTurismoPandaBicompaxNoDateE"] .two .spb.withoutDate,
+.dhw-1964 #productDetails[productname="GranTurismoPandaBicompaxDateE"] .two .spb.withDate {
+    display: block !important;
+}
+.dhw-1964 #productDetails[productname="GranTurismoEvilPandaBicompaxNoDate"] .epb.withoutDate,
+.dhw-1964 #productDetails[productname="GranTurismoEvilPandaBicompaxDate"] .epb.withDate,
+.dhw-1964 #productDetails[productname="GranTurismoEvilPandaBicompaxNoDateE"] .epb.strapeImageWithoutDate,
+.dhw-1964 #productDetails[productname="GranTurismoEvilPandaBicompaxDateE"] .epb.strapeImageWithDate,
+.dhw-1964 #productDetails[productname="GranTurismoEvilPandaBicompaxNoDateE"] .two .epb.withoutDate,
+.dhw-1964 #productDetails[productname="GranTurismoEvilPandaBicompaxDateE"] .two .epb.withDate{
+    display: block !important;
+}
+.dhw-1964 #productDetails[productname="GranTurismoSilverBicompaxNoDate"] .sb.withoutDate,
+.dhw-1964 #productDetails[productname="GranTurismoSilverBicompaxDate"] .sb.withDate,
+.dhw-1964 #productDetails[productname="GranTurismoSilverBicompaxNoDateE"] .sb.strapeImageWithoutDate,
+.dhw-1964 #productDetails[productname="GranTurismoSilverBicompaxDateE"] .sb.strapeImageWithDate,
+.dhw-1964 #productDetails[productname="GranTurismoSilverBicompaxNoDateE"] .two .sb.withoutDate,
+.dhw-1964 #productDetails[productname="GranTurismoSilverBicompaxDateE"] .two .sb.withDate {
+    display: block !important;
+}
+.dhw-1964 #productDetails[productname="GranTurismoSlateGreyBicompaxNoDate"] .sgb.withoutDate,
+.dhw-1964 #productDetails[productname="GranTurismoSlateGreyBicompaxDate"] .sgb.withDate,
+.dhw-1964 #productDetails[productname="GranTurismoSlateGreyBicompaxNoDateE"] .sgb.strapeImageWithoutDate,
+.dhw-1964 #productDetails[productname="GranTurismoSlateGreyBicompaxDateE"] .sgb.strapeImageWithDate,
+.dhw-1964 #productDetails[productname="GranTurismoSlateGreyBicompaxNoDateE"] .two .sgb.withoutDate,
+.dhw-1964 #productDetails[productname="GranTurismoSlateGreyBicompaxDateE"] .two .sgb.withDate {
+    display: block !important;
+}
+.dhw-1964 #productDetails[productname="GranTurismoWhitePandaNoDate"] .wpt.withoutDate,
+.dhw-1964 #productDetails[productname="GranTurismoWhitePandaDate"] .wpt.withDate,
+.dhw-1964 #productDetails[productname="GranTurismoWhitePandaNoDateE"] .wpt.strapeImageWithoutDate,
+.dhw-1964 #productDetails[productname="GranTurismoWhitePandaDateE"] .wpt.strapeImageWithDate,
+.dhw-1964 #productDetails[productname="GranTurismoWhitePandaNoDateE"] .two .wpt.withoutDate,
+.dhw-1964 #productDetails[productname="GranTurismoWhitePandaDateE"] .two .wpt.withDate {
+    display: block !important;
+}
+.dhw-1964 #productDetails[productname="GranTurismoPandaNoDate"] .spt.withoutDate,
+.dhw-1964 #productDetails[productname="GranTurismoPandaDate"] .spt.withDate,
+.dhw-1964 #productDetails[productname="GranTurismoPandaNoDateE"] .spt.strapeImageWithoutDate,
+.dhw-1964 #productDetails[productname="GranTurismoPandaDateE"] .spt.strapeImageWithDate,
+.dhw-1964 #productDetails[productname="GranTurismoPandaNoDateE"] .two .spt.withoutDate,
+.dhw-1964 #productDetails[productname="GranTurismoPandaDateE"] .two .spt.withDate {
+    display: block !important;
+}
+.dhw-1964 #productDetails[productname="GranTurismoEvilPandaNoDate"] .ept.withoutDate,
+.dhw-1964 #productDetails[productname="GranTurismoEvilPandaDate"] .ept.withDate,
+.dhw-1964 #productDetails[productname="GranTurismoEvilPandaNoDateE"] .ept.strapeImageWithoutDate,
+.dhw-1964 #productDetails[productname="GranTurismoEvilPandaDateE"] .ept.strapeImageWithDate,
+.dhw-1964 #productDetails[productname="GranTurismoEvilPandaNoDateE"] .two .ept.withoutDate,
+.dhw-1964 #productDetails[productname="GranTurismoEvilPandaDateE"] .two .ept.withDate {
+    display: block !important;
+}
+.dhw-1964 #productDetails[productname="GranTurismoSilverNoDate"] .st.withoutDate,
+.dhw-1964 #productDetails[productname="GranTurismoSilverDate"] .st.withDate,
+.dhw-1964 #productDetails[productname="GranTurismoSilverNoDateE"] .st.strapeImageWithoutDate,
+.dhw-1964 #productDetails[productname="GranTurismoSilverDateE"] .st.strapeImageWithDate,
+.dhw-1964 #productDetails[productname="GranTurismoSilverNoDateE"] .two .st.withoutDate,
+.dhw-1964 #productDetails[productname="GranTurismoSilverDateE"] .two .st.withDate {
+    display: block !important;
+}
+.dhw-1964 #productDetails[productname="GranTurismoSlateGreyNoDate"] .sgt.withoutDate,
+.dhw-1964 #productDetails[productname="GranTurismoSlateGreyDate"] .sgt.withDate,
+.dhw-1964 #productDetails[productname="GranTurismoSlateGreyNoDateE"] .sgt.strapeImageWithoutDate,
+.dhw-1964 #productDetails[productname="GranTurismoSlateGreyDateE"] .sgt.strapeImageWithDate,
+.dhw-1964 #productDetails[productname="GranTurismoSlateGreyNoDateE"] .two .sgt.withoutDate,
+.dhw-1964 #productDetails[productname="GranTurismoSlateGreyDateE"] .two .sgt.withDate {
+    display: block !important;
+}
+@media (max-width: 1199px) {
+    .dhw-1964 .dhw-1964 .slider-arrow {
+        left: -25px;
+    }
+    .dhw-1964 .slider-arrow.next {
+        right: -25px;
+    }
+}
+@media (max-width: 1024px) {
+    .dhw-1964 .productWrapper .thumbnail-slider {
+        display: none;
+    }
+    .dhw-1964 .product-single .product-single__photos {
+        padding: 0;
+    }
+    .dhw-1964 .product-single__photos:not(.museum) .productWrapper .slick-dots {
+        position: relative;
+        bottom: 0;
+        margin-top: 20px;
+        display: block !important;
+    }
+    .dhw-1964 .productWrapper .slick-dots li button {
+        border: 1px solid #9A8383;
+        background-color: #9A8383;
+        width: 6px;
+        height: 6px;
+    }
+    .dhw-1964 .productWrapper .slick-dots li.slick-active button {
+        background-color: #090909;
+        border-color: #090909;
+    }
+    .dhw-1964 .productWrapper .slick-dots li button:hover {
+        background-color: #090909;
+        border-color: #090909;
+        opacity: 0.8;
+    }
+}
+@media (max-width: 480px) {
+    .dhw-1964 .product-single__photos:not(.museum) .productWrapper .slick-dots {
+        margin-top: 10px;
+    }
+    .dhw-1964 .productWrapper .slick-slide .one .strape-change-wrapper {
+        bottom: 10px;
+    }
+}
