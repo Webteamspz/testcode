@@ -224,7 +224,7 @@ waitForElement("#ProductPhoto .lightbox-img", function (element) {
         $('.mfp-img').attr('src', $(this).attr('src'));
       });
 
-      // Image click
+      // Strape Image Change
       $('.strape-change').on('click', function () {
         $('.hide-1964').click();
         $(this).text($('.hide-1964').text());
@@ -247,8 +247,9 @@ waitForElement("#ProductPhoto .lightbox-img", function (element) {
       }
       $('#productDetails').attr('productName', productName);
       if($('.productWrapper .slider.slick-initialized').length > 0) {
-      $('.productWrapper .slider').slick("slickGoTo", 0);
+        $('.productWrapper .slider').slick("slickGoTo", 0);
       }
+      $('.strape-change').text($('.hide-1964').text());
     });
   });
 
