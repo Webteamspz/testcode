@@ -1,0 +1,67 @@
+.danhenrywatches-test .product__feature{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 20px 0;
+}
+.danhenrywatches-test .product__feature .feature {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    max-width: calc(100% / 4);
+    width: 100%;
+    padding: 0 10px;
+}
+.danhenrywatches-test .product__feature .feature img{
+	height: 40px;
+	margin-bottom: 20px;
+}
+.danhenrywatches-test .product__feature .feature a{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 26px;
+	text-transform: capitalize;
+	color: #BB8D51;
+	text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+            align-items: center;
+}
+.danhenrywatches-test .product__feature .feature a.no-hover{
+	pointer-events: none;
+	text-decoration: none;
+}
+.danhenrywatches-test .product__feature .feature a:hover{
+	/*text-decoration: none;*/
+    opacity: 0.8;
+}
+@media(max-width:767.98px){
+	.danhenrywatches-test .product__feature .feature{
+		padding: 0 5px;
+	}
+    .danhenrywatches-test .product__feature .feature img{
+		height: 35px;
+	}
+	.danhenrywatches-test .product__feature .feature a{
+		font-size: 12px;
+		line-height: 20px;
+	}
+}
