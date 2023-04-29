@@ -1,0 +1,9 @@
+body.sonno-test #effectiveAppsCDTContainer,body.sonno-test .removeProduct_mainDiv{display:none}
+body.sonno-test .subtotal p.install_ment_para{color:#fff!important;padding:5px 0}
+body.sonno-test .cart-section .container.main.content form#cart_form .section.clearfix.lineItemContainerOuter{padding-bottom:20px}
+@media(max-width:769.98px){
+body.sonno-test .cart-section .container.main.content form#cart_form .section.clearfix.lineItemContainerOuter{padding-bottom: 5px}
+}
+@media(max-width:480.98px){
+body.sonno-test .Basket-innerSection+.insinstall_ment_div p.install_ment_para{color:#7c7c7c!important;padding:10px 0 5px}
+}

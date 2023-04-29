@@ -1,0 +1,12 @@
+html.mobile{display:block!important}
+@media(max-width:768.98px){
+.bs-test .product-gallery #product-gallery-carousel+.gallery-thumbs{display:none!important}
+.bs-test .product-gallery #product-gallery-carousel .swiper-slide{opacity:1!important}
+.bs-test .product-header.bg-light .container{max-width:100%;padding:0}
+.bs-test .product-header.bg-light .container>.pt-3.pt-md-4{padding-left:15px;padding-right:15px;padding-bottom:10px}
+.bs-test .product-header.bg-light .container>.row>aside{padding-left:15px!important;padding-right:15px!important}
+.bs-test .product-title-group .title-reviews-wrapper{margin-bottom:10px}
+.bs-test .description-wrapper .product-description{font-size:14px}
+.bs-test .description-wrapper .product-description>p{margin-bottom:8px}
+.bs-test .description-wrapper .product-description>ul{margin-bottom:0}
+}

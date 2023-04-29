@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap);
+.sonno-test{opacity:0;visibility:hidden}
+.sonno-test.load{opacity:1;visibility:visible}
+.sonno-test .above_text{display:none}
+.sonno-test .price-eligibility-wrap{display:-webkit-box;display:-ms-flexbox;display:flex;padding:10px;margin-bottom:17px}
+.sonno-test .product-price-wrap{margin:0}
+.sonno-test .dividedby-wraper{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;width:100%;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;margin-bottom:20px;padding:5px 15px 0}
+.sonno-test .dividedby-wraper .install_ment_para{font-family:Work Sans,sans-serif;font-weight:400;font-size:14px;line-height:19px;color:#6d6d6d;margin:0 0 5px!important}
+.sonno-test .dividedby-wraper .dividebuy-softcredit{display:-webkit-box;display:-ms-flexbox;display:flex;width:100%;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.sonno-test .dividedby-wraper .InofDiv{z-index:100;top:31px;left:15px}
+.sonno-test .collapse-inner .small_imgs .button_span{background:0 0!important}
+.sonno-test .collapse-inner .small_imgs .button_span:not(.active) button.yes.option-sel{background:#fff}
+.sonno-test .collapse-inner .small_imgs .button_span button.yes.option-sel:hover{background:#275981!important}
+.sonno-test .warranty-lists li:nth-child(6):after{border-right:none}
+.sonno-test .price-eligibility-wrap .total{padding:0}
+@media(max-width:768.98px){
+.sonno-test.product-divan-beds .diven-text{margin:20px 0 15px}
+.sonno-test.product-divan-beds .collapse-inner{margin-bottom:30px}
+.sonno-test.product-divan-beds .add-basket{margin:12px!important}
+.sonno-test.product-divan-beds .product_name{margin-bottom:0!important}
+.sonno-test.product-divan-beds .total{padding:0!important}
+}
+@media(max-width:766.98px){
+.sonno-test.product-divan-beds .collapse-inner{margin-bottom:20px}
+.sonno-test.product-divan-beds .eight.columns.medium-down--one-whole.right-catalog-content-section.omega .bottom_sec{display:none}
+}
+@media(max-width:450.98px){
+.sonno-test div#color-section .colours-holder .color-span-3{width:25%}
+}
+@media(max-width:414.98px){
+.sonno-test.product-divan-beds .product_name{margin-bottom:10px!important}
+}
+@media(max-width:768.98px){
+.sonno-test #shopify-section-warranty-section h2{text-align:center;font-size:22px;line-height:28px;margin:0 0 15px}
+.sonno-test #id-warranty-section{padding:15px 0}
+.sonno-test #id-warranty-section .warranty-lists{display:-webkit-box;display:-ms-flexbox;display:flex;grid-gap:0rem; max-width:450px;width:100%; margin: 0 auto;}
+.sonno-test #id-warranty-section .warranty-lists li:after{display:none}
+.sonno-test #id-warranty-section .warranty-lists li:nth-child(5),.sonno-test #id-warranty-section .warranty-lists li:nth-child(7){display:none}
+.sonno-test #id-warranty-section .warranty-lists li svg{height:40px}
+.sonno-test #id-warranty-section .warranty-lists li p{line-height:15px;font-size:12px;padding:0}
+.sonno-test #shopify-section-image-text-blocks #id-image-text-blocks{margin:20px 0}
+.sonno-test #shopify-section-image-text-blocks #id-image-text-blocks .image-text-head{display:none}
+.sonno-test #shopify-section-warranty-section{margin-top: -30px}  
+}
+@media(max-width:350.98px){
+.sonno-test #id-warranty-section .warranty-lists li svg{height:30px}
+.sonno-test #id-warranty-section .warranty-lists li p{font-size:10px;line-height:13px}
+}

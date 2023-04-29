@@ -1,0 +1,129 @@
+.saCheckoutInfoBarWrap{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding:30px 0 15px 0;max-width:420px;width:100%;margin:0 auto}
+.saCheckoutInfoBarItems{width:23%}
+.saCheckoutInfoBarContent p{font-style:normal;font-weight:700;font-size:10px;line-height:12px;color:#2b2a29;text-align:center;padding-left:10px;cursor:pointer}
+.main__header nav{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
+.breadcrumbNumber{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding:40px 0 0}
+.breadcrumbNumber li{padding-left:15px;font-size:14px}
+.breadcrumbNumber li:first-child a{color:#000}
+.breadcrumbNumber li:last-child a{color:#29abe2}
+.breadcrumbNumber li a{font-weight:400;font-size:14px}
+.step__footer__previous-link .icon-svg--color-accent{color:#0195c8}
+.step__footer__previous-link-content{color:#0195c8}
+@media(max-width:999.98px){
+.saCheckoutInfoBarWrap{padding:30px 0}
+}
+@media(max-width:425.98px){
+.saCheckoutInfoBarWrap{max-width:292px}
+.saCheckoutInfoBarItems{width:26%}
+.saCheckoutInfoBarItems .saCheckoutInfoBarContent>svg{width:15px;height:15px}
+.saCheckoutInfoBarWrap>svg{width:12px;height:12px}
+.saCheckoutInfoBarContent p{padding-left:3px;font-size:9px}
+}
+@media(max-width:749.98px){
+.breadcrumbNumber{padding:20px 0 40px}
+}
+aside[role=complementary] .message{padding-bottom:0}
+.timer-box{margin:20px auto 0!important}
+.main__header a.logo,.main__header nav,.saCheckoutInfoBarItemsCart,header.banner{display:none!important}
+.saCheckoutInfoBarContent{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.contactInfoCom .saCheckoutInfoBarItems.saCheckoutInfoBarItemsPayment,.contactInfoCom .saCheckoutInfoBarItems.saCheckoutInfoBarItemsShipping{opacity:.5;pointer-events:none}
+.contactInfoCom .saCheckoutInfoBarItems.saCheckoutInfoBarItemsInfo{pointer-events:none}
+.shippingMethodCom .saCheckoutInfoBarItems.saCheckoutInfoBarItemsShipping{opacity:1;pointer-events:none}
+.shippingMethodCom .saCheckoutInfoBarItems.saCheckoutInfoBarItemsInfo{opacity:.5}
+.shippingMethodCom .saCheckoutInfoBarItems.saCheckoutInfoBarItemsPayment{opacity:.5;pointer-events:none}
+.paymentMethodCom .saCheckoutInfoBarItems.saCheckoutInfoBarItemsInfo,.paymentMethodCom .saCheckoutInfoBarItems.saCheckoutInfoBarItemsShipping{opacity:.5}
+.paymentMethodCom .saCheckoutInfoBarItems.saCheckoutInfoBarItemsPayment{opacity:1;pointer-events:none}
+.section__header{background:#2b2a29;height:35px;padding:0 20px 0 40px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.section__header>.layout-flex--loose-horizontal{margin:0;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.section__header .section__title{position:relative;font-style:normal;font-weight:700;font-size:18px;line-height:22px;text-transform:capitalize;color:#fff;padding:0}
+.section__header .section__title::before{position:absolute;content:'';left:-30px;top:0;width:22px;height:22px;background-position:center;background-repeat:no-repeat;background-size:22px 22px}
+.section__header .section__title#main-header::before{background-image:url('https://cdn-3.convertexperiments.com/uf/10007840/10007255/1682403027-mail.png')}
+.section__header .section__title#section-delivery-title::before{background-image:url('https://cdn-3.convertexperiments.com/uf/10007840/10007255/1682403012-home.png')}
+.section--shipping-method .section__header .section__title::before{background-image:url('https://cdn-3.convertexperiments.com/uf/10007840/10007255/1682403012-home.png')!important}
+.section--payment-method .section__header .section__title::before{background-image:url('https://cdn-3.convertexperiments.com/uf/10007840/10007255/1682402900securitycard.png')!important}
+.section--billing-address .section__header .section__title::before{background-image:url('https://cdn-3.convertexperiments.com/uf/10007840/10007255/1682402900bill.png')}
+.section--remember-me .section__header .section__title::before{background-image:url('https://cdn-3.convertexperiments.com/uf/10007840/10007255/1682402900save.png')}
+.section__header p.layout-flex__item{font-style:normal;font-weight:700;font-size:12px;line-height:15px;text-transform:capitalize;color:#fff;padding:0}
+.section__header p.section__text{display:none}
+.section__header p.layout-flex__item a{color:#fff}
+.section__header p.layout-flex__item a:hover{opacity:.5}
+.step__footer .shown-if-js{max-width:190px;width:100%}
+.step__footer .step__footer__continue-btn{background-repeat:no-repeat;background-position:24px center;max-width:225px;width:100%;text-align:right}
+div[data-step=contact_information] .step__footer .step__footer__continue-btn{background-image:url('https://cdn-3.convertexperiments.com/uf/10007840/10007255/1682404698-truck.png')}
+div[data-step=shipping_method] .step__footer .step__footer__continue-btn{background-image:url('https://cdn-3.convertexperiments.com/uf/10007840/10007255/1682404717-card.png')}
+div[data-step=payment_method] .step__footer .step__footer__continue-btn{max-width:190px;text-align:center}
+div[data-step=payment_method] .step__footer .step__footer__continue-btn::before{position:absolute;content:'';top:50%;left:18%;-webkit-transform:translate(-18%,-50%);-ms-transform:translate(-18%,-50%);transform:translate(-18%,-50%);width:18px;height:18px;background:url(https://cdn-3.convertexperiments.com/uf/10007840/10007255/1682404739-lock.png)}
+div[data-step=payment_method] .step__footer .step__footer__continue-btn span{padding-left:15px}
+.step__footer .step__footer__continue-btn.btn--loading{background-image:none!important}
+.saCheckoutBannerWrap{position:sticky;top:0;width:100%;z-index:1000}
+div[data-step=thank_you] .section__header{background:0 0!important}
+@media(max-width:999.98px){
+.section--reductions .section__header{text-align:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding:0 20px}
+}
+@media(max-width:749.98px){
+.timer-box{margin:0 auto!important}
+.anyflexbox .content .wrap{padding:0}
+.anyflexbox aside.sidebar{padding-left:1em;padding-right:1em}
+.anyflexbox .main .main__header{padding:0 10px}
+.main__footer,.section__content,div[data-step=payment_method] .step__sections>.section:first-child,div[data-step=shipping_method] .step__sections>.section:first-child{padding-left:1em!important;padding-right:1em!important}
+.step__footer{padding-left:1em;padding-right:1em;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.step__footer .step__footer__previous-link{padding-top:0}
+.step__footer .step__footer__continue-btn{margin-bottom:20px}
+.alternative-payment-separator{margin-bottom:2.5em}
+.section--contact-information .section__header{height:65px}
+.section__header>.layout-flex--loose-horizontal{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}
+}
+.whyBuyWrap .wraper-3.wraper-x .list{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:0}
+.whyBuyWrap .wraper-3.wraper-x .list-item{text-align:center}
+.whyBuyWrap .wraper-3.wraper-x .list .list-item .img-block{max-width:34px;height:34px;margin:0 auto 10px}
+.whyBuyWrap .wraper-3.wraper-x .list .list-item p{font-style:normal;font-weight:700;font-size:12px;line-height:15px;text-align:center;color:#000}
+.whyBuyTitle h3 span{font-style:normal;font-weight:700;font-size:16px;line-height:18px;text-transform:capitalize;color:#535353;font-family:Helvetica}
+.whyBuyTitle{padding-bottom:30px;text-align:center}
+.customerReviewsWrap{background:#fff;padding:30px 28px;margin:30px 0}
+.customerReviewsWrap .whyBuyTitle{padding-bottom:15px}
+.customerReviewsWrap .whyBuyTitle h3{text-align:center;background:-webkit-gradient(linear,left top,left bottom,from(#dcdcdc),to(#dcdcdc)) no-repeat;background:-o-linear-gradient(#dcdcdc,#dcdcdc) no-repeat;background:linear-gradient(#dcdcdc,#dcdcdc) no-repeat;background-position:center;background-size:100% 1px}
+.customerReviewsWrap .whyBuyTitle h3 span{background:#ffff;padding:0 14px}
+.customerReviewsWrap.mobile{display:none}
+.customerReviewsWrap .review-wraper{display:-webkit-box;display:-ms-flexbox;display:flex}
+.customerReviewsWrap .customerReviewsItem{-webkit-box-align:center;-ms-flex-align:center;align-items:center;border-bottom:1.5px solid #dcdcdc;padding:18px 0 20px 0}
+.customerReviewsWrap .customerReviewsItemImg{width:40px}
+.customerReviewsWrap .customerReviewsItemcontent{margin-top:15px}
+.customerReviewsWrap .customerReviewsItemcontent p{font-style:normal;font-weight:400;font-size:12px;line-height:15px;text-transform:capitalize;color:#000}
+.customerReviewsWrap .customerReviewsName{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;width:100%;padding-left:10px}
+.customerReviewsWrap .customerReviewsName .rating_{max-width:85px;width:100%;display:block;margin:0 0 0 auto}
+.customerReviewsWrap .customerReviewsName span{text-align:right;font-style:normal;font-weight:600;font-size:12px;line-height:15px;text-transform:uppercase;color:#000}
+.customerReviewsWrap .customerReviewsName span.verify{font-weight:400;color:#04c801;text-transform:capitalize;padding-left:10px}
+.customerReviewsWrap .customerReviewsItemcontent .customerReviewsName span:last-child{font-size:12px}
+.customerReviewsWrap .customerReviewsItemcontent p{font-style:normal;font-weight:400;font-size:12px;line-height:15px;text-transform:capitalize;color:#000}
+.customerReviewsWrap .customerReviewsItemcontent p span{font-weight:700}
+.timer-box+.whyBuyWrap{display:none}
+@media (max-width:999px){
+.timer-box+.whyBuyWrap{display:block}
+.whyBuyWrap{padding-top:25px;padding-bottom:25px;border-bottom:1px solid #d9d9d9}
+.order-summary__sections .whyBuyWrap,.whyBuyWrap .whyBuyTitle{display:none}
+.whyBuyWrap .wraper-3.wraper-x .list-item{padding:0 5px}
+.whyBuyWrap .wraper-3.wraper-x .list .list-item p{font-size:10px}
+.customerReviewsWrap{display:none}
+.customerReviewsWrap.mobile{display:block;background:#f3f3f3}
+.whyBuyWrap .whyBuyTitle h3{text-align:center}
+.customerReviewsWrap .slick-dots li button:before{font-size:12px!important}
+.customerReviewsWrap .customerReviewsItem{border:none;margin:0 10px}
+.customerReviewsWrap .whyBuyTitle h3 span{background:#f3f3f3;padding:0 17px}
+}
+@media(max-width:374.98px){
+.customerReviewsWrap .customerReviewsName>span:first-child{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+}
+@media (min-width:1000px){
+.anyflexbox .content{overflow-y:inherit}
+.order-summary__sections{height:inherit!important}
+}
+.saCheckoutBannerWrap{position:relative;height:150px;width:100vw}
+.saCheckoutBannerWrap .inner-slider{width:100%;height:150px;top:0;left:0;background-repeat:repeat-x;background-size:auto 100%;-webkit-animation:moveSlide 50s linear infinite;animation:moveSlide 50s linear infinite;background-image:url(https://cdn-3.convertexperiments.com/uf/10007840/10007255/1682403618-strip.png)}
+@-webkit-keyframes moveSlide{
+0%{background-position:0}
+100%{background-position:-1200px}
+}
+@keyframes moveSlide{
+0%{background-position:0}
+100%{background-position:-1200px}
+}

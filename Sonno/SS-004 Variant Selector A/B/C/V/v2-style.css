@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap);
+::-webkit-scrollbar{width:7px;height:7px}
+::-webkit-scrollbar-track{border-radius:20px}
+::-webkit-scrollbar-thumb{background:rgba(20,50,75,.5);border-radius:20px}
+::-webkit-scrollbar-corner{display:none}
+.sonno-test{opacity:0;visibility:hidden}
+.sonno-test.load{opacity:1;visibility:visible}
+.sonno-test .above_text{display:none}
+.sonno-test .price-eligibility-wrap{display:-webkit-box;display:-ms-flexbox;display:flex;padding:10px;margin-bottom:17px}
+.sonno-test .product-price-wrap{margin:0}
+.sonno-test .dividedby-wraper{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;width:100%;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;margin-bottom:20px;padding:5px 15px 0}
+.sonno-test .dividedby-wraper .install_ment_para{font-family:Work Sans,sans-serif;font-weight:400;font-size:14px;line-height:19px;color:#6d6d6d;margin:0 0 5px!important}
+.sonno-test .dividedby-wraper .dividebuy-softcredit{display:-webkit-box;display:-ms-flexbox;display:flex;width:100%;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.sonno-test .dividedby-wraper .InofDiv{z-index:100;top:31px;left:15px}
+.sonno-test .collapse-inner .small_imgs .button_span{background:0 0!important}
+.sonno-test .collapse-inner .small_imgs .button_span:not(.active) button.yes.option-sel{background:#fff}
+.sonno-test .collapse-inner .small_imgs .button_span button.yes.option-sel:hover{background:#275981!important}
+.sonno-test .warranty-lists li:nth-child(6):after{border-right:none}
+.sonno-test .price-eligibility-wrap .total{padding:0}
+.sonno-test .custom-ele{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;max-width:590px;width:100%;margin:7px auto 0}
+.sonno-test .custom-ele .custom-ele-wrapper{max-width:100%;width:100%}
+.sonno-test .tab-list{list-style:none;margin:0;padding:0;display:-webkit-box;display:-ms-flexbox;display:flex}
+.sonno-test .tab-list li{max-width:calc(100% / 5);width:100%;padding:10px;font-family:'Work Sans',sans-serif;font-style:normal;font-weight:700;text-transform:uppercase;font-size:16px;line-height:31px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;color:#14324b;background:0 0;margin-bottom:0;cursor:pointer;background:#fff;border:1px solid #d9d9d9}
+.sonno-test .tab-list li.active{background:#f89201;border:none}
+.sonno-test .tab-list li svg{width:28px;height:28px;margin:0 auto 6px}
+.sonno-test .tab-list li.active svg path{fill:white}
+.sonno-test .tab-list li h4{font-family:'Work Sans';font-style:normal;font-weight:600;font-size:18px;line-height:26px;text-align:center;color:#14324b;margin:0 auto 6px;padding:0}
+.sonno-test .tab-list li.active h4{color:#fff}
+.sonno-test .tab-list li h6{font-family:'Work Sans';font-style:normal;font-weight:400;font-size:16px;line-height:20px;text-align:center;color:#6d6d6d;margin:0 auto;padding:0}
+.sonno-test .tab-list li.active h6{color:#fff}
+.sonno-test .small_imgs.small_bed span.color-img{background:0 0!important}
+.sonno-test .collapse-inner{background:#f3faff!important;border-radius:0 0;height:379px;overflow:scroll;padding:0!important;border-bottom:1px solid #9b9b9b;-webkit-box-shadow:none;box-shadow:none}
+.sonno-test .collapse-inner .collapse-one{padding:0!important;border:none}
+.sonno-test .collapse-inner .col-main{position:absolute;visibility:hidden;z-index:-100;height:0;}
+.sonno-test .collapse-inner div#color .colours-holder{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-wrap:wrap;flex-wrap:wrap}
+.sonno-test .collapse-inner div#color .colours-holder .color-span-3{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}
+.sonno-test .collapse-inner div#color .colour-main{margin:24px 0 0!important}
+.sonno-test .collapse-inner div#color .colour-main>div:last-child{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding:0 13px}
+.sonno-test .collapse-inner div#color .small_imgs h4{min-height:auto}
+.sonno-test .right-catalog-content-section .total.product-add-to-cart-wrap>h2,.sonno-test .right-catalog-content-section .total.product-add-to-cart-wrap>h3,.sonno-test .right-catalog-content-section .total.product-add-to-cart-wrap>h4,.sonno-test .right-catalog-content-section .total.product-add-to-cart-wrap>h5{display:none!important}
+@media(max-width:1199.98px){
+.sonno-test .tab-list li h4,.sonno-test .tab-list li h6{font-size:15px;line-height:20px}
+}
+@media(max-width:999.98px){
+.sonno-test .tab-list li h4,.sonno-test .tab-list li h6{font-size:10px;line-height:14px}
+}
+@media(max-width:768.98px){
+.sonno-test.product-divan-beds .diven-text{margin:20px 0 15px}
+.sonno-test.product-divan-beds .collapse-inner{margin-bottom:30px;margin-left:0;width:100%}
+.sonno-test.product-divan-beds .add-basket{margin:12px!important}
+.sonno-test.product-divan-beds .product_name{margin-bottom:0!important}
+.sonno-test.product-divan-beds .total{padding:0!important}
+.sonno-test .custom-ele{max-width:100%;margin:7px 0 0}
+}
+@media(max-width:766.98px){
+.sonno-test.product-divan-beds .collapse-inner{margin-bottom:20px}
+.sonno-test.product-divan-beds .eight.columns.medium-down--one-whole.right-catalog-content-section.omega .bottom_sec{display:none}
+}
+@media(max-width:500.98px){
+.sonno-test .custom-ele-wrapper .custom-tab-wrapper{overflow-x:scroll}
+.sonno-test .tab-list{width:500px}
+}
+@media(max-width:450.98px){
+.sonno-test .eight.columns.medium-down--one-whole.right-catalog-content-section.omega{padding:0}
+}
+@media(max-width:414.98px){
+.sonno-test.product-divan-beds .product_name{margin-bottom:10px!important}
+}
+@media(max-width:768.98px){
+.sonno-test #shopify-section-warranty-section h2{text-align:center;font-size:22px;line-height:28px;margin:0 0 15px}
+.sonno-test #id-warranty-section{padding:15px 0}
+.sonno-test #id-warranty-section .warranty-lists{display:-webkit-box;display:-ms-flexbox;display:flex;grid-gap:0rem;max-width:450px;width:100%;margin:0 auto}
+.sonno-test #id-warranty-section .warranty-lists li:after{display:none}
+.sonno-test #id-warranty-section .warranty-lists li:nth-child(5),.sonno-test #id-warranty-section .warranty-lists li:nth-child(7){display:none}
+.sonno-test #id-warranty-section .warranty-lists li svg{height:40px}
+.sonno-test #id-warranty-section .warranty-lists li p{line-height:15px;font-size:12px;padding:0}
+.sonno-test #shopify-section-image-text-blocks #id-image-text-blocks{margin:20px 0}
+.sonno-test #shopify-section-image-text-blocks #id-image-text-blocks .image-text-head{display:none}
+.sonno-test #shopify-section-warranty-section{margin-top: -30px}  
+}
+@media(max-width:350.98px){
+.sonno-test #id-warranty-section .warranty-lists li svg{height:30px}
+.sonno-test #id-warranty-section .warranty-lists li p{font-size:10px;line-height:13px}
+}
