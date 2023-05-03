@@ -1,0 +1,38 @@
+body.sonno-test .footerFixedDiv{display:none}
+body.sonno-test #effectiveAppsCDTContainer,body.sonno-test .removeProduct_mainDiv{display:none}
+body.sonno-test .subtotal p.install_ment_para{color:#fff!important;padding:5px 0}
+body.sonno-test .cart-section .container.main.content form#cart_form .section.clearfix.lineItemContainerOuter{padding-bottom:20px}
+body.sonno-test .cart-section .container.main.content form#cart_form p.youSavedPrice{display:none}
+body.sonno-test .cart-section .container.main.content form#cart_form .price-wrapper{font-style:normal;font-weight:400;font-size:17px;line-height:21px;text-align:center;color:#25364a}
+body.sonno-test .cart-section .container.main.content form#cart_form .price-wrapper span{font-weight:700}
+@media(max-width:768.98px){
+body.sonno-test .desk-only{display:none}
+body.sonno-test #cart_form .product-quantity-box.left.mobileDiv{display:none}
+body.sonno-test .cart-section .container.main.content form#cart_form .section.clearfix.lineItemContainerOuter{padding-bottom:5px}
+}
+@media(max-width:480.98px){
+body.sonno-test .Basket-innerSection+.insinstall_ment_div p.install_ment_para{color:#7c7c7c!important;padding:10px 0 5px}
+}
+body.sonno-test .custom-wrap{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;width:100%}
+body.sonno-test .custom-wrap .product-quantity-box{display:-webkit-box!important;display:-ms-flexbox!important;display:flex!important;-webkit-box-pack:normal;-ms-flex-pack:normal;justify-content:normal;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:65%!important}
+body.sonno-test .custom-wrap .Productcartprice{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:10px 0}
+body.sonno-test .custom-wrap button.variant_modal{position:relative!important;top:inherit!important;left:inherit!important}
+body.sonno-test .custom-wrap .product-plus span{font-weight:700!important;font-size:20px!important;color:#fff!important;line-height:26px!important;height:30px;width:30px}
+body.sonno-test .custom-wrap .product-minus span{font-weight:700!important;font-size:29px!important;color:#fff!important;line-height:23px!important;height:30px;width:30px}
+body.sonno-test .custom-wrap .product-minus .icon-minus:before{display:none}
+body.sonno-test #cart_form .product-quantity-box button.btn.btn-info.btn-.variant_modal{-webkit-box-shadow:none;box-shadow:none;position:relative;font-size:0;width:16px;height:16px;background:#fff!important;margin-right:10px;cursor:pointer}
+body.sonno-test #cart_form .product-quantity-box button.btn.btn-info.btn-.variant_modal::before{position:absolute;content:'';width:16px;height:16px;background-image:url('https://iili.io/HSxC0Cl.png');background-repeat:no-repeat;background-position:center;background-size:100%;cursor:pointer}
+body.sonno-test #cart_form .product-quantity-box button.btn.btn-info.btn-.variant_modal:hover{opacity:.8}
+@media(max-width:768.98px){
+body.sonno-test .custom-wrap .product-quantity-box{margin:5px 0!important}
+body.sonno-test .custom-wrap .Productcartprice{margin:5px 0}
+body.sonno-test .custom-wrap .Productcartprice{width:30%;padding:0}
+body.sonno-test .custom-wrap .Productcartprice p{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}
+body.sonno-test .custom-wrap .Productcartprice p span{font-weight:700!important;max-width:100%!important;width:100%!important;margin-right:0!important;text-align:right!important}
+body.sonno-test .custom-wrap .Productcartprice p span:first-child{font-weight:400!important}
+body.sonno-test .cart-section .container.main.content form#cart_form .price-wrapper{padding-bottom:10px}
+}
+@media(max-width:480.98px){
+body.sonno-test .custom-wrap .product-minus span{font-size:20px!important;line-height:14px!important}
+body.sonno-test .custom-wrap .product-plus span{font-size:16px!important;line-height:18px!important}
+}
