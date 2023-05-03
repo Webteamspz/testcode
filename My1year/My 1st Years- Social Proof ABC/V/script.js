@@ -11,17 +11,15 @@
                     observer.disconnect();
                 }
             });
-            observer.observe(bodyElm, {
+            observer.observe(document.body, {
                 childList: true,
                 subtree: true
             });
         });
     }
-    /*JS insertBefore for DOM manipulation*/
 	function insertBefore(el, referenceNode) {
 	    referenceNode.parentNode.insertBefore(el, referenceNode);
 	}
-	/*JS insertAfter for DOM manipulation*/
 	function insertAfter(el, referenceNode) {
 	    referenceNode.parentNode.insertBefore(el, referenceNode.nextSibling);
 	}

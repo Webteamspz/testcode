@@ -1,6 +1,6 @@
 convert.$(document).ready(function() {
-    if (!convert.$('body').hasClass('sonno-test')) {
-        convert.$('body').addClass('sonno-test');
+    if (!convert.$('body').hasClass('sonno-test-v2')) {
+        convert.$('body').addClass('sonno-test-v2');
         loadTest();
     }
 

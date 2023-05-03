@@ -1,6 +1,6 @@
 convert.$(document).ready(function() {
-    if (!convert.$('body').hasClass('sonno-test')) {
-        convert.$('body').addClass('sonno-test');
+    if (!convert.$('body').hasClass('sonno-test-v2')) {
+        convert.$('body').addClass('sonno-test-v2');
         loadTest();
     }
 
@@ -9,7 +9,12 @@ convert.$(document).ready(function() {
         convert.$('.lineItemContainerOuter').each(function(index, ele) {
             index++;
             convert.$(this).addClass('lineItem-' + index);
-            convert.$('<div class="custom-wrap"></div>').insertAfter('.lineItem-' + index + ' .cart_content_info.middle-section .product_btm_detail_div .assembly_buttons');
+            // convert.$('<div class="custom-wrap"></div>').insertAfter('.lineItem-' + index + ' .cart_content_info.middle-section .product_btm_detail_div .assembly_buttons');
+            if (width > 768) {
+                convert.$('<div class="custom-wrap"></div>').insertAfter('.lineItem-' + index + ' .cart_content_info.middle-section .product_btm_detail_div .assembly_buttons');
+            } else {
+                convert.$('<div class="custom-wrap"></div>').insertAfter('.lineItem-' + index + ' .cart_content_info.middle-section');
+            }
             convert.$('.lineItem-' + index + ' .custom-wrap').append(convert.$('.lineItem-' + index + ' .five.columns.alpha .product-quantity-box'));
             convert.$('.lineItem-' + index + ' .custom-wrap').append(convert.$('.lineItem-' + index + ' .product_btm_detail_div > .Productcartprice'));
             convert.$('.lineItem-' + index + ' button.variant_modal').insertBefore('.lineItem-' + index + ' .custom-wrap .product-quantity-box .quantity-wrapper-c');

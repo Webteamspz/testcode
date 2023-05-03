@@ -1,10 +1,9 @@
 @media (min-width:1280px){
-    .tr-test .catalog-product-view .amasty-label-container{height:150px;width:150px;margin-right:3.125rem}
+    .tr-test.catalog-product-view .amasty-label-container{height:150px;width:150px;margin-right:3.125rem}
     .tr-test #media-gallery{padding:0 50px}
     }
-    .tr-test .body-font div.order-2>.text-center.mt-2{margin-bottom:10px!important}
-    .tr-test .product-reviews--top feefowidget-logo-small feefowidget-rating-stars .feefowidget-star{font-size:18px!important}
     .tr-test .mz-figure .mz-nav-controls button.mz-button:not(.mz-button-close){display:block!important;width:44px!important;height:44px!important}
+    .tr-test .mz-figure .mz-nav-controls button.mz-button:not(.mz-button-close):hover{opacity:0.5}
     .tr-test .MagicScroll-horizontal{display:none!important}
     .tr-test .MagicZoom,.tr-test figure.mz-figure{overflow:visible!important}
     .tr-test .mz-figure .mz-nav-controls button.mz-button.mz-button-prev{left:-50px!important}
@@ -15,7 +14,7 @@
     .tr-test div.MagicToolboxContainer.selectorsBottom .MagicToolboxSelectorsContainer .MagicScroll-arrows-inside{max-width:100%!important}
     .tr-test .MagicScroll.MagicScroll-arrows-inside .mcs-button-arrow{display:none!important}
     .tr-test div.MagicToolboxContainer.selectorsBottom .MagicToolboxSelectorsContainer a{border:none!important;padding:3px;width:13px!important;height:13px!important;background:#000!important;border-radius:50%!important;visibility:visible!important;opacity:.5;margin:0 15px}
-    .tr-test div.MagicToolboxContainer.selectorsBottom .MagicToolboxSelectorsContainer a.active-selector{opacity:1}
+    .tr-test div.MagicToolboxContainer.selectorsBottom .MagicToolboxSelectorsContainer a:hover,.tr-test div.MagicToolboxContainer.selectorsBottom .MagicToolboxSelectorsContainer a.active-selector{opacity:1}
     .tr-test .MagicScroll{top:50px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
     .tr-test .MagicScroll .mcs-item img{display:none!important}
     @media(max-width:1280px){
@@ -24,6 +23,7 @@
     }
     @media(max-width:767.98px){
     .tr-test #media-gallery{padding:0 50px}
+    .tr-test.catalog-product-view .amasty-label-container{right:53px}
     .tr-test .mz-figure .mz-nav-controls button.mz-button:not(.mz-button-close){width:40px!important;height:40px!important}
     .tr-test .mz-figure .mz-nav-controls button.mz-button.mz-button-prev:before,.tr-test .mz-figure .mz-nav-controls button.mz-button.mz-button-next:before{width:40px;height:40px}
     .tr-test .mz-figure .mz-nav-controls button.mz-button.mz-button-prev{left:-40px!important}

@@ -1,0 +1,6 @@
+.ls-test .last-sale-info{padding-top:20px}
+.ls-test .last-sale-info img{width:23px;height:23px;margin-right:10px}
+.ls-test .last-sale-info .last-sale{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-style:normal;font-weight:700;font-size:16px;line-height:19px;color:#71acab}
+@media(max-width:500.98px){
+.ls-test .last-sale-info .last-sale{font-size:14px;line-height:17px}
+}
