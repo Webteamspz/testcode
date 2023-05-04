@@ -121,7 +121,7 @@ nav[aria-label=Breadcrumb]+.whyBuyWrap{display:block}
 .order-summary__sections{height:inherit!important}
 }
 .neCheckoutBannerWrap{height:150px;width:100vw}
-.neCheckoutBannerWrap .inner-slider{width:100%;height:150px;top:0;left:0;background-repeat:repeat-x;background-size:auto 100%;-webkit-animation:moveSlide 50s linear infinite;animation:moveSlide 50s linear infinite;background-image:url(https://iili.io/H88NCYu.png)}
+.neCheckoutBannerWrap .inner-slider{display:none;width:100%;height:150px;top:0;left:0;background-repeat:repeat-x;background-size:auto 100%;-webkit-animation:moveSlide 50s linear infinite;animation:moveSlide 50s linear infinite;background-image:url(https://iili.io/H88NCYu.png)}
 @-webkit-keyframes moveSlide{
 0%{background-position:0}
 100%{background-position:-1200px}
@@ -129,4 +129,16 @@ nav[aria-label=Breadcrumb]+.whyBuyWrap{display:block}
 @keyframes moveSlide{
 0%{background-position:0}
 100%{background-position:-1200px}
+}
+.neCheckoutBannerWrap{background:#10bfd6}
+.neCheckoutBannerWrap .inner-wrap{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:90%;max-width:78.5714285714em;padding:0 5%;margin:0 auto}
+.neCheckoutBannerWrap .inner-wrap .left-logo{max-width:116px;width:100%;height:100%}
+.neCheckoutBannerWrap .inner-wrap .right-logo{max-width:258px;width:100%;height:100%;margin-bottom:-3px}
+.neCheckoutBannerWrap .hero-review{background:0 0}
+@media (max-width:999px){
+.neCheckoutBannerWrap .inner-wrap{max-width:560px;width:100%;padding:0 1em;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}
+.neCheckoutBannerWrap .hero-review{left:-5px;top:85%;-webkit-transform:translate(0,-85%);-ms-transform:translate(0,-85%);transform:translate(0,-85%);-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;padding:0 20px}
+.neCheckoutBannerWrap .inner-wrap .left-logo{position:absolute;max-width:84px;height:auto;top:20%;left:16px;-webkit-transform:translateY(-20%);-ms-transform:translateY(-20%);transform:translateY(-20%)}
+.neCheckoutBannerWrap .inner-wrap .right-logo{max-width:131px}
+.neCheckoutBannerWrap .hero-review img{margin:0 0 5px}
 }
