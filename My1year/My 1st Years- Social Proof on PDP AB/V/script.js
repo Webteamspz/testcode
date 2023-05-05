@@ -95,7 +95,7 @@
     		if(quantityPro != undefined){
 	    		var labelText = document.createElement('div');
 	    		labelText.classList.add('last-sale-info');
-	    		labelText.innerHTML= '<div class="last-sale"><img src="https://iili.io/HS76sON.png" alt="Check">'+quantityPro+' Orders in last one Month</div>';
+	    		labelText.innerHTML= '<div class="last-sale"><img src="https://iili.io/HS76sON.png" alt="Check">'+quantityPro+' Orders in last one month</div>';
 	    		insertAfter(labelText,document.querySelector('.MagicToolboxSelectorsContainer'));
     		}
     	}
