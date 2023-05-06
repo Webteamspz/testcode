@@ -70,7 +70,7 @@ div[data-step=thank_you] .section__header{background:0 0!important}
 .step__footer .step__footer__previous-link{padding-top:0}
 .step__footer .step__footer__continue-btn{margin-bottom:20px}
 .alternative-payment-separator{margin-bottom:2.5em}
-.section--contact-information .section__header{height:65px}
+.section--contact-information .section__header,.section__header{height:65px}
 .section__header>.layout-flex--loose-horizontal{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}
 }
 .whyBuyWrap .wraper-3.wraper-x .list{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:0}

@@ -36,6 +36,9 @@ var saCheckout = {
         document.querySelector('.saCheckoutInfoBarItemsPayment .saCheckoutInfoBarContent p').addEventListener('click', function() {
             document.querySelector('.breadcrumb__item.payment .breadcrumb__link').click();
         });
+        if(screen.width < 999 && document.querySelector('.order-summary-toggle')){
+			document.querySelector('.order-summary-toggle').click();
+		}
 		var whyBuyHtml = `<div class="whyBuyWrap"><div class="whyBuyTitle"><h3><span>Why Buy From Us?</span></h3></div><div class="wraper-3 wraper-x"><div class="list"><div class="list-item"><div class="img-block"><img src="https://cdn-3.convertexperiments.com/uf/10007840/10007255/1680248161customer.png" alt="3M+ Happy Customers"></div><p>3M+ Happy Customers</p></div><div class="list-item"><div class="img-block"><img src="https://cdn-3.convertexperiments.com/uf/10007840/10007255/1680248161return.png" alt="Easy Return and Exchanges"></div><p>Easy Return & Exchanges</p></div><div class="list-item"><div class="img-block"><img src="https://cdn-3.convertexperiments.com/uf/10007840/10007255/1680248169shipping.png" alt="Fast Shipping within 1-3 days"></div><p>Fast Shipping with Tracking</p></div><div class="list-item"><div class="img-block"><img src="https://cdn-3.convertexperiments.com/uf/10007840/10007255/1680248161payment.png" alt="Secure Payment Methods"></div><p>Secure Payment Methods</p></div></div></div>`;
         document.querySelector('.order-summary__sections').insertAdjacentHTML('beforeend', whyBuyHtml); 
         document.querySelector('.timer-box').insertAdjacentHTML('afterend', whyBuyHtml); 
