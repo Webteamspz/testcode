@@ -35,7 +35,7 @@ aside[role=complementary] .message{padding-bottom:0}
 .paymentMethodCom .saCheckoutInfoBarItems.saCheckoutInfoBarItemsPayment{opacity:1;pointer-events:none}
 .section__header{background:#2b2a29;height:35px;padding:0 20px 0 40px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .section__header>.layout-flex--loose-horizontal{margin:0;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
-.section__header .section__title{position:relative;font-style:normal;font-weight:700;font-size:18px;line-height:22px;text-transform:capitalize;color:#fff;padding:0}
+.section__header .section__title{position:relative;font-style:normal;font-weight:700;font-size:18px;line-height:22px;text-transform:capitalize;color:#fff;padding: 0!important}
 .section__header .section__title::before{position:absolute;content:'';left:-30px;top:0;width:22px;height:22px;background-position:center;background-repeat:no-repeat;background-size:22px 22px}
 .section__header .section__title#main-header::before{background-image:url('https://cdn-3.convertexperiments.com/uf/10007840/10007255/1682403027-mail.png')}
 .section__header .section__title#section-delivery-title::before{background-image:url('https://cdn-3.convertexperiments.com/uf/10007840/10007255/1682403012-home.png')}
