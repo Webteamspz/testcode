@@ -1,0 +1,115 @@
+@media(max-width:768.98px){
+	body.sticky .drawer{
+		z-index: 999999;	
+	}
+	body.sticky{
+		padding-bottom: 80px;
+	}
+	body.sticky .payment-buttons{
+	    position: fixed;
+	    bottom: 0;
+	    left: 50%;
+	    -webkit-transform: translateX(-50%);
+	        -ms-transform: translateX(-50%);
+	            transform: translateX(-50%);
+	    width: 100%;
+	    background: #F5F5F5;
+	    padding: 15px 7px;
+	    z-index: 99999;
+	    display: -webkit-box;
+	    display: -ms-flexbox;
+	    display: flex;
+	}
+	body.sticky .needsclick{
+		position: relative;
+	    z-index: 0;
+	}
+	body.sticky .payment-buttons .shopify-payment-button{
+		display: none;
+	}
+	body.sticky .payment-buttons > button{
+		width: 50%;
+    	max-width: 50%;
+		background: #000;
+		color: #fff;
+	    border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+	    -webkit-box-align: center;
+	        -ms-flex-align: center;
+	            align-items: center;
+	    -webkit-box-pack: center;
+	        -ms-flex-pack: center;
+	            justify-content: center;
+	    font-style: normal;
+		font-weight: 400;
+		font-size: 17px !important;
+		line-height: 15px;
+	}
+	.payment-buttons > button img{
+		display: none;
+	}
+	body.sticky .payment-buttons > button img{
+		display: block;
+		width: 27px;
+		height: 27px;
+		margin-left: 5px;
+		cursor: pointer;
+	}
+	body.sticky .payment-buttons > button.btn--loading img{
+		display: none;
+	}
+	body.sticky .payment-buttons > button:hover{
+		background: #fff;
+		color: #000;
+	    border: 1px solid #000;
+	    box-shadow: none;
+	    outline: none;
+	}
+	.custom-design{
+		display: none;
+	}
+	body.sticky .custom-design{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		width: 50%;
+    	max-width: 50%;
+    	background: #FFFFFF;
+		border: 1px solid #000;
+		border-radius: 30px 0px 0px 30px;
+		padding: 0 15px;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 17px!important;
+		line-height: 15px;
+	}
+	body.sticky .custom-design:hover{
+		background: #000;
+	    color: #fff;
+	    border-color: #000;
+	}
+	body.sticky .custom-design img{
+		width: 19px;
+		height: 19px;
+		margin-left: 5px;
+		cursor: pointer;
+	}
+	body.sticky .custom-design:hover img{
+		display: none;
+	}
+}
+@media (max-width:500.98px){
+	body.sticky .custom-design,
+	body.sticky .payment-buttons > button{
+		font-size: 12px !important;
+	}
+}
