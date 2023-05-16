@@ -1,0 +1,43 @@
+.raworganics-test .section-4 .container-fluid > div{
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: flex-start !important;
+}
+.raworganics-test .accordion-button{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 35px;
+	color: #213831;
+}
+.raworganics-test #collapse-3 > .accordion-body{
+    padding-left: 30px;
+}
+.raworganics-test .accordion-body h4{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	color: #000000;
+	margin-bottom: 8px;
+}
+.raworganics-test .accordion-body p{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 26px;
+	color: #000000;
+}
+.raworganics-test .accordion-body p .phn-no{
+	color: #417B69;
+	text-decoration: underline;
+}
+.raworganics-test .accordion-body p .phn-no:hover{
+	text-decoration: none;
+}
+.raworganics-test .accordion-body .divider{
+	margin: 32px 0;
+	background: rgba(33, 56, 49, 0.2);
+	width: 100%;
+	height: 1px;
+}

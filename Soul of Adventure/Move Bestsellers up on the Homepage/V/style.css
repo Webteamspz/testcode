@@ -1,0 +1,8 @@
+@media(max-width:1500px){
+	.sa-test .slide-card-section{
+		overflow-x: scroll;
+	}
+	.sa-test .slide-card-section .slide-card{
+		width: 1500px !important;
+	}
+}

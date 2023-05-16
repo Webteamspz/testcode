@@ -1,6 +1,9 @@
 (function(){
 	'use strict';
 	waitForElement('.layout__main article > .shopify-section').then(function(elm) {
+        document.body.classList.add('sa-test');
+		var newTile = '<a href="https://safishing.com/collections/pack-deals-1" class="slide-item"><div class="img-box"><img src="https://iili.io/HUNuuX2.png" alt="Pack Deals"></div><div><h4>Pack Deals</h4></div></a><a href="https://safishing.com/collections/daily-deals" class="slide-item"><div class="img-box"><img src="https://iili.io/HUNuTzl.png" alt="Daily Deals"></div><div><h4>Daily Deals</h4></div></a>';
+		document.querySelectorAll('.slide-card-section .slide-card a')[0].insertAdjacentHTML('beforebegin',newTile);
 		classAllocation('.layout__main article > .shopify-section');
 		insertAfter(document.querySelector('.section-4'),document.querySelector('.section-1'));
 	});
