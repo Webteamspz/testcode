@@ -162,3 +162,10 @@ body.load{opacity:1}
 @media(max-width:425.98px){
 .ups-checkout .new-checkout-section .review-block{max-width:100%}
 }
+
+.ups-checkout .woocommerce-checkout{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.ups-checkout .woocommerce-billing-fields__field-wrapper .form-row.woocommerce-invalid label,.ups-checkout .woocommerce-shipping-fields__field-wrapper .form-row.woocommerce-invalid label{color:#b81c23!important}
+.ups-checkout .woocommerce-billing-fields__field-wrapper .form-row.woocommerce-invalid input,.ups-checkout .woocommerce-billing-fields__field-wrapper .form-row.woocommerce-invalid select,.ups-checkout .woocommerce-shipping-fields__field-wrapper .form-row.woocommerce-invalid input,.ups-checkout .woocommerce-shipping-fields__field-wrapper .form-row.woocommerce-invalid select{border-color:#b81c23!important}
+@media(max-width:991.98px){
+.ups-checkout .woocommerce-NoticeGroup .woocommerce-error{width:100%}
+}

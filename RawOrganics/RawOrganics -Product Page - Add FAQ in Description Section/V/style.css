@@ -28,10 +28,12 @@
 	line-height: 26px;
 	color: #000000;
 }
+.raworganics-test .accordion-body p .anchor,
 .raworganics-test .accordion-body p .phn-no{
 	color: #417B69;
 	text-decoration: underline;
 }
+.raworganics-test .accordion-body p .anchor:hover,
 .raworganics-test .accordion-body p .phn-no:hover{
 	text-decoration: none;
 }
