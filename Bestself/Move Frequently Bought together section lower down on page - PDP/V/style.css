@@ -1,0 +1,39 @@
+@media(min-width: 991.98px){
+	.bs-test .upsell-products-wrap{
+	    display: -webkit-box;
+	    display: -ms-flexbox;
+	    display: flex;
+	    position: relative;
+	    padding: 60px 0 20px;
+        max-width: 1140px;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	.bs-test .upsell-products-title{
+	    position: absolute;
+	    left: 50%;
+	    -webkit-transform: translateX(-50%);
+	        -ms-transform: translateX(-50%);
+	            transform: translateX(-50%);
+	    top: -5px;
+	}
+	.bs-test .upsell-products-wrap form{
+		max-width: 33.333%;
+	}
+	.upsell-product-image img {
+	     max-width: 130px; 
+	     width: 100%; 
+	}
+}
+@media(max-width:1199.98px){
+	.bs-test .upsell-products-wrap{
+		max-width: 940px;
+	}
+}
+@media(max-width: 991.98px){
+	.bs-test .upsell-products-wrap{
+		max-width: 540px;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+}
