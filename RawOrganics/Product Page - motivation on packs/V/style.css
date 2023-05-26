@@ -1,0 +1,21 @@
+.raworg-test label.product-options--item span.green-tab{
+	background-color: #417B69;
+	border: 1px solid #417B69;
+	padding: 5px;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: 600;
+}
+.raworg-test label.product-options--item .price-wrap{
+	margin: 0;
+}
+.raworg-test label.product-options--item .price-wrap .strike-price{
+    text-decoration: line-through; 
+    font-weight: 500;
+	font-size: 12px;
+	line-height: 18px;
+	color: rgba(33, 56, 49, 0.8);
+}
+.raworg-test label.product-options--item .option-savings{
+	margin-left: 15px;
+}
