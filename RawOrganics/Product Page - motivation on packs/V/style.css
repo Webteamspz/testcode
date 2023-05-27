@@ -1,3 +1,6 @@
+.raworg-test label.product-options--item{
+	min-height: 73.33px;
+}
 .raworg-test label.product-options--item span.green-tab{
 	background-color: #417B69;
 	border: 1px solid #417B69;
@@ -18,4 +21,9 @@
 }
 .raworg-test label.product-options--item .option-savings{
 	margin-left: 15px;
+}
+@media(max-width:425px){
+	.raworg-test label.product-options--item{
+		min-height: 91.33px;
+	}
 }

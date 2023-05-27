@@ -109,6 +109,7 @@ nav[aria-label=Breadcrumb]+.whyBuyWrap{display:block}
 @media (max-width:750.98px){
 .main{padding-top: 1.5em;}
 .whyBuyWrap{padding-bottom:14px}
+.whyBuyWrap .wraper-3.wraper-x .list .list-item .img-block{max-width:33px;height:33px}
 }
 @media(max-width:374.98px){
 .customerReviewsWrap .customerReviewsName>span:first-child{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
