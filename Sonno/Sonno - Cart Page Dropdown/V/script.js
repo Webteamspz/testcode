@@ -1,12 +1,15 @@
 convert.$(document).ready(function() {
     if (!convert.$('body').hasClass('sonno-test-v1')) {
+        var cartIsempty = convert.$('#cart_item_count').attr('value');
         convert.$('body').addClass('sonno-test-v1');
-        loadTest();
+        if(cartIsempty > 0){
+        	loadTest();
+        }
     }
 
     function loadTest() {
         var width = window.innerWidth;
-        var tpBanner = '<div class="tp-banner"><img class="tp-img" src="https://iili.io/Hr0L8DG.png" alt="Trust Piolt"><div class="tp-contetnt"><h5 class="tp-rating">Rating score: <span>4.8/5.0</span></h5><a class="tp-review" href="javascript:void(0)">Based on 1996 Reviews</a></div></div>';
+        var tpBanner = '<div class="tp-banner"><img class="tp-img" src="https://iili.io/Hr0L8DG.png" alt="Trust Piolt"><div class="tp-contetnt"><h5 class="tp-rating">Rating score: <span>4.8/5.0</span></h5><a class="tp-review" href="javascript:void(0)">Based on 2017 Reviews</a></div></div>';
         var featureBanner = '<div class="warranty_inner"><span><img src="https://cdn.shopify.com/s/files/1/0539/7695/7109/files/truck.svg?v=1658820601"></span><h2>Fast and Free<br>Delivery</h2></div><hr class="warranty_separator"><div class="warranty_inner "><span><img src="https://cdn.shopify.com/s/files/1/0539/7695/7109/files/convert-3d-cube.svg?v=1658820601"></span><h2>60 Night<br>Risk Free Trial</h2></div><hr class="warranty_separator"><div class="warranty_inner"><span><img src="https://iili.io/Hr0LeHX.png"></span><h2>Best Price<br>Guaranteed</h2></div><div class="warranty_inner"><span><img src="https://iili.io/Hr0LkRn.png"></span><h2>0% Monthly<br>Interest</h2></div><hr class="warranty_separator"><div class="warranty_inner"><span><img src="https://cdn.shopify.com/s/files/1/0539/7695/7109/files/noun-warranty-199475_1.svg?v=1658820601"></span><h2>3 Year<br>Warranty</h2></div><hr class="warranty_separator"><div class="warranty_inner"><span><img src="https://iili.io/Hr0LvNs.png"></span><h2>Excellent<br>Customer Support</h2></div>';
         convert.$(tpBanner).insertAfter('.shopingbasketMain h1.shoppingbasket');
         convert.$('.warrantymain_div.desktop, .warrantymain_div.mobile').html(featureBanner);
