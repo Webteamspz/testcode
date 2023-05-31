@@ -16,7 +16,7 @@ var convertInterval = setInterval(function() {
 			    });
 			}
 		    function loadTest() {
-		    	var slider = '<div class="slider-section"><div class="title-wrap"><span class="heading">AS SEEN ON</span></div><div class="inner-wrap"><div class="slider-wrap"><img class="img-logo" src="https://iili.io/HrW1PEv.png" alt="client Logos"></div></div></div>'
+		    	var slider = '<div class="player-info"><div class="inner-wrap"><span class="player-one">Rayan Fee</span><span class="player-two">Douge Polk</span></div></div><div class="slider-section"><div class="title-wrap"><span class="heading">AS SEEN ON</span></div><div class="inner-wrap"><div class="slider-wrap"><img class="img-logo" src="https://iili.io/HrW1PEv.png" alt="client Logos"></div></div></div>'
 		    	classAllocation('main.content .fl-builder-content > div','section');
 		    	classAllocation('.section-5 div[data-node="5e7d15627fbf8"] > div','div');
 		    	convert.$('.section-1 .fl-row-content').append('<img class="img-icon" src="https://iili.io/HrW1i4R.png" alt="Poker Guarantee">');
