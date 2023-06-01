@@ -1,0 +1,128 @@
+body.sonno-test-v3 #effectiveAppsCDTContainer,body.sonno-test-v3 .footerFixedDiv,body.sonno-test-v3 .removeProduct_mainDiv,body.sonno-test-v3 .shopingbasketMain h1.shoppingbasket{display:none}
+body.sonno-test-v3 .subtotal p.install_ment_para{color:#fff!important;padding:5px 0}
+body.sonno-test-v3 .cart-section .container.main.content form#cart_form .section.clearfix.lineItemContainerOuter{padding-bottom:20px}
+body.sonno-test-v3 .cart-section .container.main.content form#cart_form p.youSavedPrice{display:none}
+body.sonno-test-v3 .cart-section .container.main.content form#cart_form .price-wrapper{font-style:normal;font-weight:400;font-size:20px;line-height:24px;text-align:center;color:#25364a;padding:10px 0 0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;max-width:185px;width:100%;margin:0 0 0 auto}
+body.sonno-test-v3 .cart-section .container.main.content form#cart_form .section.clearfix.lineItemContainerOuter .assembly_buttons.mobileDivAsssembly_btns{padding-top:5px}
+body.sonno-test-v3 .cart-section .container.main.content form#cart_form .price-wrapper span{font-weight:700}
+body.sonno-test-v3 .cart-section .container.main.content form#cart_form .section .eleven.cart_content_info .price-wrapper span{color:#25364a;font-size:20px;line-height:24px;font-weight:700}
+@media(max-width:768.98px){
+body.sonno-test-v3 .desk-only{display:none}
+body.sonno-test-v3 #cart_form .product-quantity-box.left.mobileDiv{display:none}
+body.sonno-test-v3 .cart-section .container.main.content form#cart_form .section.clearfix.lineItemContainerOuter{padding-bottom:10px}
+}
+@media(max-width:480.98px){
+body.sonno-test-v3 .Basket-innerSection+.insinstall_ment_div p.install_ment_para{color:#7c7c7c!important;padding:10px 0 5px}
+}
+body.sonno-test-v3 .custom-wrap{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;width:100%}
+body.sonno-test-v3 .custom-wrap .product-quantity-box{display:-webkit-box!important;display:-ms-flexbox!important;display:flex!important;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:65%!important}
+body.sonno-test-v3 .custom-wrap .Productcartprice{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:10px 0}
+body.sonno-test-v3 .custom-wrap button.variant_modal{position:relative!important;top:inherit!important;left:inherit!important}
+body.sonno-test-v3 .custom-wrap .product-plus span{font-weight:700!important;font-size:20px!important;color:#fff!important;line-height:26px!important;height:30px;width:30px}
+body.sonno-test-v3 .custom-wrap .product-minus span{font-weight:700!important;font-size:29px!important;color:#fff!important;line-height:23px!important;height:30px;width:30px}
+body.sonno-test-v3 .custom-wrap .product-minus .icon-minus:before{display:none}
+body.sonno-test-v3 #cart_form .product-quantity-box button.btn.btn-info.btn-.variant_modal{-webkit-box-shadow:none;box-shadow:none;background:#fff!important;margin-right:10px;border:1px solid #14324a;color:#14324a!important}
+body.sonno-test-v3 #cart_form .product-quantity-box button.btn.btn-info.btn-.variant_modal:hover{background:#275981!important;border:1px solid #275981;color:#fff!important}
+@media(max-width:768.98px){
+body.sonno-test-v3 .custom-wrap{padding:0 8px}
+body.sonno-test-v3 .custom-wrap .product-quantity-box{width:80%!important;-webkit-box-pack:normal;-ms-flex-pack:normal;justify-content:normal;margin:5px 0!important}
+body.sonno-test-v3 .custom-wrap .Productcartprice{margin:5px 0}
+body.sonno-test-v3 .custom-wrap .Productcartprice{width:30%;padding:0}
+body.sonno-test-v3 .custom-wrap .Productcartprice p{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}
+body.sonno-test-v3 .custom-wrap .Productcartprice p span{font-weight:700;max-width:100%!important;width:100%!important;margin-right:0!important;text-align:right!important}
+body.sonno-test-v3 .custom-wrap .Productcartprice p span:first-child{font-weight:400;-webkit-text-decoration-line:line-through;text-decoration-line:line-through;color:#999}
+body.sonno-test-v3 .cart-section .container.main.content form#cart_form .price-wrapper{margin:0 auto;max-width:156px;font-size:17px;line-height:21px}
+}
+@media(max-width:480.98px){
+body.sonno-test-v3 #cart_form .product-quantity-box button.btn.btn-info.btn-.variant_modal{width:80px;height:30px}
+body.sonno-test-v3 .custom-wrap .product-minus{float:left!important;height:24px!important;width:24px!important}
+body.sonno-test-v3 .custom-wrap .product-plus{float:left!important;height:24px!important;width:24px!important}
+body.sonno-test-v3 .custom-wrap .product-minus span{font-size:20px!important;line-height:14px!important;position:absolute!important;top:50%;left:50%!important;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);height:18px;width:18px}
+body.sonno-test-v3 .custom-wrap .product-plus span{font-size:16px!important;line-height:18px!important;position:absolute!important;top:50%;left:50%!important;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);height:18px;width:18px}
+body.sonno-test-v3 .Basket-innerSection{margin-top:20px}
+}
+body.sonno-test-v3 .cart_content_info h5{position:relative;padding-right:25px}
+body.sonno-test-v3 .cart_content_info h5>img{cursor:pointer;position:absolute;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);right:10px;width:17px;height:20px}
+body.sonno-test-v3 .cart_content_info h5>img:hover{opacity:.8}
+body.sonno-test-v3 .cart-section .productDetailcartpage{display:none!important}
+body.sonno-test-v3 .cart-section .container.main.content form#cart_form .product-info-wrapper{padding-right:20px}
+body.sonno-test-v3 .cart-section .container.main.content form#cart_form .product-info-wrapper p{font-size:17px!important;line-height:25px!important;font-weight:400;text-align:left;float:none!important;margin:0;color:#7c7c7c}
+@media(max-width:900px){
+body.sonno-test-v3 .cart_content_info h5>img{width:12px;height:15px}
+body.sonno-test-v3 .cart-section .container.main.content form#cart_form .product-info-wrapper p{font-size:14px!important;line-height:19px!important}
+}
+@media(max-width:480.98px){
+body.sonno-test-v3 .cart-section .container.main.content form#cart_form .product-info-wrapper p{font-size:12px!important;line-height:18px!important}
+}
+@media (max-width:375.98px){
+body.sonno-test-v3 .cart-section .container.main.content form#cart_form .product-info-wrapper p{font-size:11px!important;line-height:13px!important}
+}
+body.sonno-test-v3 .tp-banner{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-wrap:wrap;flex-wrap:wrap;padding:0;margin:0 auto}
+body.sonno-test-v3 .tp-contetnt{position:relative;top:4px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+body.sonno-test-v3 .tp-banner .tp-img{max-width:174px;width:100%;height:42px;margin-right:10px}
+body.sonno-test-v3 .tp-banner .tp-rating{padding:0;font-style:normal;font-weight:400;font-size:20px;line-height:24px;color:#000;margin-bottom:0}
+body.sonno-test-v3 .tp-banner .tp-rating span{font-weight:600}
+body.sonno-test-v3 .tp-banner .tp-review{margin-left:10px;pointer-events:none;text-align:center;padding:0;font-style:normal;font-weight:400;font-size:20px;line-height:24px;-webkit-text-decoration-line:none;text-decoration-line:none;color:#000}
+body.sonno-test-v3 .tp-banner .tp-review span{font-weight:600;color:#000}
+body.sonno-test-v3 .tp-banner .tp-review:hover{text-decoration:none}
+@media(max-width:480.98px){
+body.sonno-test-v3 .shopingbasketMain{padding-right:10px;padding-left:10px}
+body.sonno-test-v3 .tp-contetnt{top:1px}
+body.sonno-test-v3 .tp-banner .tp-img{max-width:87px;height:21px;margin-right:3px}
+body.sonno-test-v3 .tp-banner .tp-rating{font-size:12px;line-height:13px;margin-bottom:0}
+body.sonno-test-v3 .tp-banner .tp-review{margin-left:4px;font-size:12px;line-height:13px}
+}
+body.sonno-test-v3 .warrantymain_div{-ms-flex-wrap:wrap;flex-wrap:wrap}
+body.sonno-test-v3 .warrantymain_div .warranty_inner{padding:16px 5px}
+body.sonno-test-v3 .warrantymain_div .warranty_inner h2{font-size:14px}
+body.sonno-test-v3 .warrantymain_div .warranty_inner span img{width:36px}
+body.sonno-test-v3 .Basket-innerSection button.custom_checkout{display:none}
+body.sonno-test-v3 button.custom_checkout.mobilebutton{display:block;width:100%}
+body.sonno-test-v3 .cart-section .container.main.content form#cart_form p.install_ment_para{font-style:normal;font-weight:600;font-size:16px;line-height:28px;color:#14324b!important;margin:15px 0}
+body.sonno-test-v3 .cart-section .container.main.content form#cart_form p.install_ment_para img.logoSpan_1{height:17px!important}
+@media(max-width:480.98px){
+body.sonno-test-v3 form{margin-bottom:0}
+body.sonno-test-v3 .warrantymain_div.desktop{display:none}
+body.sonno-test-v3 .warrantymain_div.mobile{display:-webkit-box;display:-ms-flexbox;display:flex}
+body.sonno-test-v3 .warrantymain_div .warranty_inner h2{font-size:10px}
+body.sonno-test-v3 .cart-section .container.main.content form#cart_form p.install_ment_para{font-size:12px;line-height:22px}
+}
+@media(max-width:374.98px){
+body.sonno-test-v3 .warrantymain_div .warranty_inner h2{font-size:9px}
+body.sonno-test-v3 .cart-section .container.main.content form#cart_form h1{font-size:17px}
+}
+body.sonno-test-v3 .cart-section .container.main.content form#cart_form h1{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;cursor:pointer}
+body.sonno-test-v3 .Basket-innerSection>.section h1 img{width:25px;height:25px}
+body.sonno-test-v3 .Basket-innerSection .total-wrap{margin:0 20px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
+body.sonno-test-v3 .Basket-innerSection .section.active .total-wrap{display:none}
+body.sonno-test-v3 .Basket-innerSection .section .subtotal{-webkit-transition:.3s all ease-in-out;-o-transition:.3s all ease-in-out;transition:.3s all ease-in-out;height:100%;border:none}
+body.sonno-test-v3 .Basket-innerSection .section:not(.active) .subtotal{height:0;overflow:hidden;padding:0 20px}
+@media(max-width:480.98px){
+body.sonno-test-v3 .Basket-innerSection>.section h1 img{width:16px;height:16px}
+body.sonno-test-v3 .Basket-innerSection .total-wrap{margin:0 9px}
+body.sonno-test-v3 .Basket-innerSection .section:not(.active) .subtotal{padding:0 10px}
+}
+body.sonno-test-v3 .cartpagemattress.removeMattSection{display:-webkit-box;display:-ms-flexbox;display:flex}
+body.sonno-test-v3 #ppmattress .pp-mattress-inner{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+body.sonno-test-v3 .cartpagemattress.removeMattSection div#complete_hide div#mattfont{width:75%;margin:4px 0;background:#f5f5f5;border:0 solid #e8e8e8;padding:5px 8px 5px 8px;text-align:left;font-weight:500;font-size:12px;line-height:31px;letter-spacing:0;text-transform:uppercase;color:#14324a;border-radius:8px}
+body.sonno-test-v3 .cartpagemattress.removeMattSection div#complete_hide div#mattfont label{font-weight:500;font-size:12px;line-height:31px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;margin:0}
+body.sonno-test-v3 .cartpagemattress.removeMattSection div#complete_hide div#mattfont label input[type=checkbox]{position:relative;width:32px;border-radius:5px;height:28px;text-indent:-99999px;min-height:22px;margin-top:4px;padding:0;min-width:0;margin-right:1px;margin-top:2px;-webkit-appearance:none;-moz-appearance:none;appearance:none;background:#fff;font-size:12px;color:#14324b;text-transform:uppercase;font-weight:700;min-height:31px;height:31px;border:1px solid #14324b;cursor:pointer}
+body.sonno-test-v3 .cartpagemattress.removeMattSection div#complete_hide div#mattfont label input[type=checkbox]:checked::after{position:absolute;content:'';left:10px;top:3px;width:9px;height:16px;border:solid #f89201;border-width:0 2px 2px 0;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}
+body.sonno-test-v3 #myRadioGroup{display:none}
+@media(max-width:1199.98px){
+body.sonno-test-v3 .cartpagemattress.removeMattSection div#complete_hide div#mattfont label input[type=checkbox]{width:25px;height:22px;min-height:18px}
+body.sonno-test-v3 .cartpagemattress.removeMattSection div#complete_hide div#mattfont label input[type=checkbox]:checked::after{left:9px;top:2px;width:6px;height:12px}
+}
+@media(max-width:768.98px){
+body.sonno-test-v3 .cartpagemattress.removeMattSection{margin:0}
+body.sonno-test-v3 #ppmattress .pp-mattress-inner{padding:0 15px 0 8px!important}
+body.sonno-test-v3 .cartpagemattress.removeMattSection .product_offers_detail{width:100%}
+body.sonno-test-v3 .cartpagemattress.removeMattSection div#complete_hide div#mattfont{width:100%;background:0 0;padding:0;margin:0}
+body.sonno-test-v3 .cartpagemattress.removeMattSection div#complete_hide div#mattfont label input[type=checkbox]{position:absolute;right:0;top:-3px;border-radius:4px;width:25px;height:23px;min-height:23px;border:2px solid #14324a}
+body.sonno-test-v3 .cartpagemattress.removeMattSection div#complete_hide div#mattfont label input[type=checkbox]:checked::after{left:7px}
+body.sonno-test-v3 .cartpagemattress.removeMattSection div#complete_hide div#mattfont label{position:relative;padding-bottom:15px;top:8px;line-height:15px}
+}
+@media(max-width:510.98px){
+body.sonno-test-v3 .cartpagemattress.removeMattSection .showMattressDiv .product_image_div{width:60px;height:60px}
+body.sonno-test-v3 .cartpagemattress.removeMattSection .products_offer_right-detail .add_item_left_btm button{margin-top:12px}
+}
