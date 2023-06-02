@@ -1,4 +1,4 @@
-.saCheckoutInfoBarWrap{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding:30px 0 15px 0;max-width:400px;width:100%;margin:0 auto}
+.saCheckoutInfoBarWrap{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding:30px 0 15px 0;max-width:420px;width:100%;margin:0 auto}
 .saCheckoutInfoBarItems{width:23%}
 .saCheckoutInfoBarContent p{font-style:normal;font-weight:700;font-size:10px;line-height:12px;color:#2b2a29;text-align:center;padding-left:10px;cursor:pointer}
 .main__header nav{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
@@ -20,7 +20,7 @@
 .saCheckoutInfoBarContent p{padding-left:3px;font-size:9px}
 }
 @media(max-width:749.98px){
-.breadcrumbNumber{padding:20px 0 40px}
+.breadcrumbNumber{padding:10px 0 0}
 }
 aside[role=complementary] .message{padding-bottom:0}
 .timer-box{margin:20px auto 0!important}
@@ -69,7 +69,6 @@ div[data-step=thank_you] .section__header{background:0 0!important}
 .step__footer{padding-left:1em;padding-right:1em;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .step__footer .step__footer__previous-link{padding-top:0}
 .step__footer .step__footer__continue-btn{margin-bottom:20px}
-.alternative-payment-separator{margin-bottom:2.5em}
 .section--contact-information .section__header,.section__header{height:65px}
 .section__header>.layout-flex--loose-horizontal{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}
 }
@@ -111,15 +110,17 @@ div[data-step=thank_you] .section__header{background:0 0!important}
 .customerReviewsWrap .slick-dots li button:before{font-size:12px!important}
 .customerReviewsWrap .customerReviewsItem{border:none;margin:0 10px}
 .customerReviewsWrap .whyBuyTitle h3 span{background:#f3f3f3;padding:0 17px}
+.customerReviewsWrap .customerReviewsItem:not(:last-child){border-bottom:none}
 }
 @media(max-width:749.98px){
 .whyBuyWrap{max-width:280px}
 .whyBuyWrap .wraper-3.wraper-x .list-item{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
 .whyBuyWrap .wraper-3.wraper-x .list .list-item .img-block{max-width:21px;height:21px;margin:0 auto 5px}
+.whyBuyWrap .wraper-3.wraper-x .list .list-item:last-child .img-block{max-width:28px}
 .whyBuyWrap .wraper-3.wraper-x .list .list-item p{font-size:10px;line-height:12px}
 }
 @media (max-width:425.98px){
-.whyBuyWrap{max-width:220px}
+.whyBuyWrap{max-width:240px}
 }
 @media(max-width:374.98px){
 .customerReviewsWrap .customerReviewsName>span:first-child{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
@@ -145,4 +146,8 @@ div[data-step=thank_you] .section__header{background:0 0!important}
 .sa-checkout-v2 .timer-box .timer-text{font-weight:400;font-size:14px;line-height:14px}
 .sa-checkout-v2 .timer-box .vertical-line{margin-left:22px;margin-right:22px;height:37px}
 .sa-checkout-v2 .timer-box #timer{max-width:70px;font-weight:400;font-size:18px;line-height:18px}
+}
+@media(max-width:749.98px){
+.sa-checkout-v2 .shopify-cleanslate .fQRHLPulpQPIVgLI2F6g{-ms-flex-wrap:wrap!important;flex-wrap:wrap!important;-webkit-box-pack:justify!important;-ms-flex-pack:justify!important;justify-content:space-between!important;-webkit-box-orient:inherit!important;-webkit-box-direction:inherit!important;-ms-flex-direction:inherit!important;flex-direction:inherit!important}
+.sa-checkout-v2 .shopify-cleanslate .fQRHLPulpQPIVgLI2F6g li{width:48%}
 }

@@ -82,7 +82,7 @@ body.sonno-test-v2 form{margin-bottom:0}
 body.sonno-test-v2 .warrantymain_div.desktop{display:none}
 body.sonno-test-v2 .warrantymain_div.mobile{display:-webkit-box;display:-ms-flexbox;display:flex}
 body.sonno-test-v2 .warrantymain_div .warranty_inner h2{font-size:10px}
-body.sonno-test-v2 .cart-section .container.main.content form#cart_form p.install_ment_para{font-size:12px;line-height:22px}
+body.sonno-test-v2 .cart-section .container.main.content form#cart_form p.install_ment_para{font-size:12px!important;line-height:22px}
 }
 @media(max-width:374.98px){
 body.sonno-test-v2 .warrantymain_div .warranty_inner h2{font-size:9px}

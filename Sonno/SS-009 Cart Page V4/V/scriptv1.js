@@ -66,6 +66,6 @@ convert.$(document).ready(function() {
         		convert.$('#effectiveAppsCDTContainer p > strong').text('Low in stock! ');
         	}
         }, 100);
-        convert.$('.cart-section .container.main.content form#cart_form p.install_ment_para').html('Pay in 2/4/6/8 months with <img class="logoSpan_1" src="https://iili.io/Hr1Hjh7.png"> <span style="background-color:0" class="info_icon_blue">i</span>');
+        convert.$('.cart-section .container.main.content form#cart_form p.install_ment_para').html('Flexible Payment Options With <img class="logoSpan_1" src="https://iili.io/Hr1Hjh7.png"> <span style="background-color:0" class="info_icon_blue">i</span><br/> at checkout');
     }
 });
