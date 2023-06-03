@@ -3,7 +3,6 @@
 .tr-test #media-gallery{padding:0 50px}
 .tr-test .mz-figure .mz-nav-controls button.mz-button:not(.mz-button-close){display:block!important;width:44px!important;height:44px!important}
 .tr-test .mz-figure .mz-nav-controls button.mz-button:not(.mz-button-close):hover{opacity:.5}
-.tr-test .MagicScroll-horizontal{display:none!important}
 .tr-test .MagicZoom,.tr-test figure.mz-figure{overflow:visible!important}
 .tr-test .mz-figure .mz-nav-controls button.mz-button.mz-button-prev{left:-50px!important}
 .tr-test .mz-figure .mz-nav-controls button.mz-button.mz-button-next{right:-50px!important}
@@ -19,8 +18,8 @@
 @media(max-width:767.98px){
 .tr-test .mz-figure .mz-nav-controls button.mz-button:not(.mz-button-close){width:40px!important;height:40px!important}
 .tr-test .mz-figure .mz-nav-controls button.mz-button.mz-button-next:before,.tr-test .mz-figure .mz-nav-controls button.mz-button.mz-button-prev:before{width:40px;height:40px}
-.tr-test .mz-figure .mz-nav-controls button.mz-button.mz-button-prev{left:-45px!important}
-.tr-test .mz-figure .mz-nav-controls button.mz-button.mz-button-next{right:-45px!important}
+.tr-test .mz-figure .mz-nav-controls button.mz-button.mz-button-prev{left:-40px!important}
+.tr-test .mz-figure .mz-nav-controls button.mz-button.mz-button-next{right:-40px!important}
 }
 @media(max-width:499.98px){
 .tr-test div.MagicToolboxContainer.selectorsBottom .MagicToolboxSelectorsContainer a{width:9px!important;height:9px!important;margin:0 7px}
@@ -37,4 +36,10 @@
 }
 @media (min-width:1024px){
 .tr-test.catalog-product-view .amasty-label-container{height:150px;width:150px}
+}
+.tr-test .mcs-items-container .mcs-item{width:33px!important}
+.tr-test div.MagicToolboxContainer.selectorsBottom .MagicToolboxSelectorsContainer a{opacity:.5!important}
+.tr-test div.MagicToolboxContainer.selectorsBottom .MagicToolboxSelectorsContainer a.active-selector{opacity:1!important}
+@media(max-width:499.98px){
+.tr-test .mcs-items-container .mcs-item{width:23px!important}
 }
