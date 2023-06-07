@@ -62,7 +62,25 @@
 	  line-height: 18px
 	}
   }
+  @media(max-width:499.98px) {
+	.posters-test-04 .trustpiolt-banner .inner-wrap .img-wrap img {
+	  margin: 0 8px;
+	  max-width: 80px;
+	  height: 12px
+	}
+	.posters-test-04 .trustpiolt-banner .inner-wrap .inner-img-wrap img {
+	  max-width: 20px;
+	  height: 20px;
+	  margin: 0 4px
+	}
+  }
   @media(max-width:374.98px) {
+	.posters-test-04 .trustpiolt-banner .inner-wrap .img-wrap img,
+	.posters-test-04 .trustpiolt-banner .inner-wrap .inner-img-wrap img {
+	  margin: 0 4px
+	}
+  }
+  @media(max-width:359.98px) {
 	.posters-test-04 .trustpiolt-banner .inner-wrap {
 	  -webkit-box-orient: vertical;
 	  -webkit-box-direction: normal;
@@ -71,10 +89,6 @@
 	}
 	.posters-test-04 .trustpiolt-banner .inner-wrap .img-wrap {
 	  margin-bottom: 5px
-	}
-	.posters-test-04 .trustpiolt-banner .inner-wrap .img-wrap img,
-	.posters-test-04 .trustpiolt-banner .inner-wrap .inner-img-wrap img {
-	  margin: 0 4px
 	}
   }
   .posters-test-04 .trustpiolt-banner.product-banner {
@@ -101,6 +115,7 @@
 	justify-content: center
   }
   .posters-test-04 .icon-wrap {
+	display: none;
 	padding: 30px 0
   }
   .posters-test-04 .icon-inner-wrap {
@@ -178,7 +193,7 @@
 	}
   }
   .posters-test-04 .tp-slider {
-	padding: 54px 0
+	padding: 34px 0
   }
   .posters-test-04 .tp-slider .inner-wrap {
 	max-width: 1309px;
@@ -291,7 +306,7 @@
   }
   @media(max-width:767.98px) {
 	.posters-test-04 .tp-slider {
-	  padding: 35px 0
+	  padding: 15px 0
 	}
 	.posters-test-04 .tp-slider .inner-wrap {
 	  padding: 0 30px

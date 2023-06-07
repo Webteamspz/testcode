@@ -44,8 +44,8 @@ convert.$(document).ready(function () {
 		    author:'- Paulson'
 		}];
         var currentPagePath = window.location.pathname.indexOf("/products/");
-    	var banner = '<div class="trustpiolt-banner"><div class="inner-wrap"><div class="img-wrap">Excellent <img src="https://iili.io/HrJoHaS.png" alt="5 Stars"></div><div class="text-wrap">42 Reviews on <div class="inner-img-wrap"><img src="https://iili.io/HrJo9F2.png" alt="TrustPilot">TrustPilot</div></div></div></div>';
-    	var productbanner = '<div class="trustpiolt-banner product-banner"><div class="inner-wrap"><div class="img-wrap">Excellent <img src="https://iili.io/HrJoHaS.png" alt="5 Stars"></div><div class="text-wrap">42 Reviews on <div class="inner-img-wrap"><img src="https://iili.io/HrJo9F2.png" alt="TrustPilot">TrustPilot</div></div></div></div>';
+    	var banner = '<div class="trustpiolt-banner"><div class="inner-wrap"><div class="img-wrap"><img src="https://iili.io/HrJoHaS.png" alt="5 Stars"></div><div class="text-wrap">88% 5 Star Reviews on <div class="inner-img-wrap"><img src="https://iili.io/HrJo9F2.png" alt="TrustPilot">TrustPilot</div></div></div></div>';
+    	var productbanner = '<div class="trustpiolt-banner product-banner"><div class="inner-wrap"><div class="img-wrap"><img src="https://iili.io/HrJoHaS.png" alt="5 Stars"></div><div class="text-wrap">88% 5 Star Reviews on <div class="inner-img-wrap"><img src="https://iili.io/HrJo9F2.png" alt="TrustPilot">TrustPilot</div></div></div></div>';
     	var iconWrap = '<section class="icon-wrap"><div class="icon-inner-wrap"><div class="icon-item"><img src="https://iili.io/H4o5fKN.png" alt="10,000+ Happy Customers"><p class="icon-title">10,000+ Happy Customers</p></div><div class="divider"></div><div class="icon-item"><img src="https://iili.io/H4o5qlI.png" alt="High quality 170gsm paper"><p class="icon-title">High quality 170gsm paper</p></div><div class="divider"></div><div class="icon-item"><img src="https://iili.io/H4o5nHX.png" alt="Fast free delivery on all orders over £39"><p class="icon-title">Fast free delivery on all orders over £39</p></div></div></section>';
     	var singleLogoHtml = ({
             title,
@@ -99,7 +99,7 @@ convert.$(document).ready(function () {
 						   ]
 						});
 	        		}
-	    		},500);
+	    		},100);
 			});
     	}
     	convert.$('body').addClass('banner-sticky');
