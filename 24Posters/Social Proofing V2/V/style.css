@@ -4,8 +4,12 @@
   .posters-test-04.banner-sticky .shopify-section-header-hidden {
 	top: 0!important
   }
+  .posters-test-04 .header {
+	padding-top: 0;
+	padding-bottom: 0;
+  }
   .posters-test-04 .trustpiolt-banner {
-	padding: 30px 0;
+	padding: 15px 0;
 	background: #fff
   }
   .posters-test-04 .trustpiolt-banner .inner-wrap {
