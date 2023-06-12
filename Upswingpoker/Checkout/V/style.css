@@ -195,3 +195,14 @@ body.load{opacity:1}
 @media(max-width:400.98px){
 .ups-checkout .new-banner-wrap .review-wrapper{max-width:55%;width:100%}
 }
+.ups-checkout .top-banner{max-width:1062px;width:100%;margin:0 auto 20px;background-color:#f8e2a9}
+.ups-checkout .top-banner .top-banner-wrap{padding:20px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.ups-checkout .top-banner .img-block{max-width:200px;width:100%}
+.ups-checkout .top-banner .info-bock{font-style:normal;font-weight:400;font-size:18px;line-height:27px;margin-left:20px}
+.ups-checkout .top-banner .info-bock p{margin-bottom:0}
+.ups-checkout .top-banner .info-bock p:first-child{font-weight:700;color:#0a0a0a;margin-bottom:16px}
+@media(max-width:767.98px){
+.ups-checkout .top-banner .top-banner-wrap{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.ups-checkout .top-banner .img-block{margin:0 auto 16px}
+.ups-checkout .top-banner .info-bock{margin:0;text-align:center}
+}
