@@ -58,6 +58,7 @@
 	  margin-bottom: 8px
 	}
 	.sonno-sticky-price .top-banner .inner-wrap .banner {
+	  display: none!important;
 	  background: #f89201;
 	  font-style: normal;
 	  font-weight: 500;
