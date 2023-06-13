@@ -173,17 +173,17 @@ body.load{opacity:1}
 .ups-checkout .new-banner-wrap{background:#f7f6f7}
 .ups-checkout .new-banner-wrap .inner-wrap{max-width:1102px;padding:0 20px;-webkit-box-sizing:border-box;box-sizing:border-box;width:100%;margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .ups-checkout .new-banner-wrap .main-logo{max-width:277px;width:100%}
-.ups-checkout .new-banner-wrap .review-wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:0 0 0 2%}
+.ups-checkout .new-banner-wrap .review-wrapper{max-width:100%;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:0 0 0 5%}
 .ups-checkout .new-banner-wrap .review-wrapper .guarantee-img{max-width:108.33px;width:100%;height:100%;margin-right:40px}
 .ups-checkout .new-banner-wrap .review-wrapper .content-wrapper img{max-width:200.64px;width:100%;height:auto;margin-bottom:11px;margin-right:0;margin-left:auto;display:-webkit-box;display:-ms-flexbox;display:flex}
 .ups-checkout .new-banner-wrap .review-wrapper .content-wrapper .title{text-align:right;font-style:normal;font-weight:600;font-size:21px;line-height:29px;text-transform:capitalize;color:#000}
-.ups-checkout .new-banner-wrap .right-side-img{max-width:265px;width:100%;height:100%}
+.ups-checkout .new-banner-wrap .right-side-img{max-width:170px;width:100%;height:100%}
 @media(max-width:991.98px){
 .ups-checkout .new-banner-wrap .main-logo{max-width:180px}
 .ups-checkout .new-banner-wrap .review-wrapper .guarantee-img{max-width:80.33px;margin-right:10px}
 .ups-checkout .new-banner-wrap .review-wrapper .content-wrapper img{max-width:130.64px;margin-bottom:5px}
 .ups-checkout .new-banner-wrap .review-wrapper .content-wrapper .title{font-size:16px;line-height:20px}
-.ups-checkout .new-banner-wrap .right-side-img{max-width:200px}
+.ups-checkout .new-banner-wrap .right-side-img{max-width:130px}
 }
 @media(max-width:767.98px){
 .ups-checkout .new-banner-wrap{padding:16px 0}
@@ -208,3 +208,5 @@ body.load{opacity:1}
 .ups-checkout .top-banner .info-bock{margin:0;text-align:center}
 }
 .ups-checkout .new-checkout-section .info-block .first-p .more{display:none}
+.ups-checkout .new-banner-wrap .review-wrapper .guarantee-img{display:none}
+.ups-checkout .new-banner-wrap .review-wrapper{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}

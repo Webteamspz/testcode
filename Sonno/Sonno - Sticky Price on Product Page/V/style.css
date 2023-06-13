@@ -1,51 +1,119 @@
-@media(max-width:768px){
-	.sonno-sticky-price.sonno-test .price-eligibility-wrap{
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		    -ms-flex-direction: column;
-		        flex-direction: column;
+@media(max-width:768px) {
+	.sonno-sticky-price.sonno-test .price-eligibility-wrap {
+	  -webkit-box-orient: vertical;
+	  -webkit-box-direction: normal;
+	  -ms-flex-direction: column;
+	  flex-direction: column
 	}
-	.sonno-sticky-price.sonno-test .dividedby-wraper{
-		margin-bottom: 0;
-	    padding: 10px 0;
+	.sonno-sticky-price.sonno-test .dividedby-wraper {
+	  margin-bottom: 0;
+	  padding: 10px 0
 	}
-	.sonno-sticky-price .new-price-wrap{
-		display: none;
-		-webkit-box-pack: justify;
-		    -ms-flex-pack: justify;
-		        justify-content: space-between;
-		-webkit-box-align: center;
-		    -ms-flex-align: center;
-		        align-items: center;
-	    background: #F3FAFF;
-	    width: 100%;
-    	z-index: 100000;
-	    padding: 5px 15px;
+	.sonno-sticky-price .new-price-wrap {
+	  display: none;
+	  -webkit-box-pack: justify;
+	  -ms-flex-pack: justify;
+	  justify-content: space-between;
+	  -webkit-box-align: center;
+	  -ms-flex-align: center;
+	  align-items: center;
+	  background: #f3faff;
+	  width: 100%;
+	  z-index: 100000;
+	  padding: 5px 15px
 	}
-	.sonno-sticky-price.sticky-price .new-price-wrap{
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-	    position: fixed;
-	    top: 0;
-	    left: 50%;
-	    -webkit-transform: translateX(-50%);
-	        -ms-transform: translateX(-50%);
-	            transform: translateX(-50%);
+	.sonno-sticky-price.sticky-price .new-price-wrap {
+	  display: -webkit-box;
+	  display: -ms-flexbox;
+	  display: flex;
+	  position: fixed;
+	  top: 0;
+	  left: 50%;
+	  -webkit-transform: translateX(-50%);
+	  -ms-transform: translateX(-50%);
+	  transform: translateX(-50%)
 	}
-	.sonno-sticky-price .new-price-wrap .text{
-		font-style: normal;
-		font-weight: 400;
-		font-size: 20px;
-		line-height: 16px;
-		color: #6D6D6D;
-	    padding: 0;
+	.sonno-sticky-price .new-price-wrap .text {
+	  font-family: Work Sans,sans-serif;
+	  font-style: normal;
+	  font-weight: 400;
+	  font-size: 20px;
+	  line-height: 16px;
+	  color: #6d6d6d;
+	  padding: 0
 	}
-	.sonno-sticky-price .new-price-wrap .tot-price{
-		font-style: normal;
-		font-weight: 700;
-		font-size: 25px;
-		line-height: 54px;
-		color: #14324A;
+	.sonno-sticky-price .new-price-wrap .tot-price {
+	  font-family: Work Sans,sans-serif;
+	  font-style: normal;
+	  font-weight: 700;
+	  font-size: 25px;
+	  line-height: 54px;
+	  color: #14324a
 	}
-}
+	.sonno-sticky-price .top-banner .inner-wrap .turstpilotParent {
+	  -webkit-box-pack: center;
+	  -ms-flex-pack: center;
+	  justify-content: center;
+	  padding: 0 10px;
+	  margin-bottom: 8px
+	}
+	.sonno-sticky-price .top-banner .inner-wrap .banner {
+	  background: #f89201;
+	  font-style: normal;
+	  font-weight: 500;
+	  font-size: 22px;
+	  line-height: 10px;
+	  display: -webkit-box;
+	  display: -ms-flexbox;
+	  display: flex;
+	  -webkit-box-pack: center;
+	  -ms-flex-pack: center;
+	  justify-content: center;
+	  -webkit-box-align: center;
+	  -ms-flex-align: center;
+	  align-items: center;
+	  text-align: center;
+	  text-transform: capitalize;
+	  color: #fff;
+	  padding: 7px 10px;
+	  min-height: 39px
+	}
+	.sonno-sticky-price .check-list {
+	  list-style: none;
+	  margin: 10px 0;
+	  padding-left: 25px
+	}
+	.sonno-sticky-price .check-list li {
+	  position: relative;
+	  font-family: Work Sans,sans-serif;
+	  font-style: normal;
+	  font-weight: 500;
+	  font-size: 17px;
+	  line-height: 26px;
+	  color: #6d6d6d;
+	  margin-bottom: 5px
+	}
+	.sonno-sticky-price .check-list li::before {
+	  position: absolute;
+	  content: '';
+	  left: -20px;
+	  top: 5px;
+	  background-image: url(https://iili.io/H6nFVl1.png);
+	  width: 15px;
+	  height: 15px;
+	  background-repeat: no-repeat;
+	  background-position: center;
+	  background-size: 15px
+	}
+  }
+  @media(max-width:480px) {
+	.sonno-sticky-price .top-banner {
+	  margin-bottom: 7px
+	}
+	.sonno-sticky-price .top-banner .inner-wrap .turstpilotParent {
+	  margin-top: 0
+	}
+	.sonno-sticky-price .check-list li {
+	  font-size: 16px
+	}
+  }

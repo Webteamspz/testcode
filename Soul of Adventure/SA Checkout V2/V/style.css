@@ -75,8 +75,9 @@ div[data-step=thank_you] .section__header{background:0 0!important}
 .whyBuyWrap{max-width:649px;width:100%}
 .whyBuyWrap .wraper-3.wraper-x .list{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:0}
 .whyBuyWrap .wraper-3.wraper-x .list-item{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;text-align:center}
-.whyBuyWrap .wraper-3.wraper-x .list .list-item .img-block{max-width:48px;height:48px;margin:0 10px}
-.whyBuyWrap .wraper-3.wraper-x .list .list-item p{font-style:normal;font-weight:700;font-size:16px;line-height:19px;text-align:center;color:#000}
+.whyBuyWrap .wraper-3.wraper-x .list .list-item .img-block{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;max-width:48px;height:48px;margin:0 10px}
+.whyBuyWrap .wraper-3.wraper-x .list .list-item:last-child .img-block{max-width:64px}
+.whyBuyWrap .wraper-3.wraper-x .list .list-item p{font-style:normal;font-weight:700;font-size:16px;line-height:19px;text-align:center;color:#fff}
 .whyBuyTitle h3 span{font-style:normal;font-weight:700;font-size:16px;line-height:18px;text-transform:capitalize;color:#535353;font-family:Helvetica}
 .whyBuyTitle{padding-bottom:30px;text-align:center}
 .customerReviewsWrap{background:#fff;padding:30px 28px;margin:30px 0}
@@ -130,7 +131,7 @@ div[data-step=thank_you] .section__header{background:0 0!important}
 .anyflexbox .content{overflow-y:inherit}
 .order-summary__sections{height:inherit!important}
 }
-.saCheckoutBannerWrap{background:rgba(199,199,199,.3);border-bottom:8px solid #2b2a29;padding:21.5px 0}
+.saCheckoutBannerWrap{background:#2b2a29;border-bottom:8px solid #2b2a29;padding:21.5px 0}
 .saCheckoutBannerWrap .inner-wrap{-webkit-box-sizing:border-box;box-sizing:border-box;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;max-width:1130px;width:100%;margin:0 auto;padding:0 15px}
 .saCheckoutBannerWrap .inner-wrap .main-logo{max-width:160px;width:100%;height:53.19px}
 @media(max-width:749.98px){
