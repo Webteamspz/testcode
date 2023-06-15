@@ -1,0 +1,95 @@
+.ups-icons .icon-wrapper{
+	background: #EBEBEB;
+	padding: 46px 0;
+}
+.ups-icons .icon-wrapper .inner-wrap{
+	max-width: 1190px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 15px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.ups-icons .icon-wrapper .item{
+	position: relative;
+	max-width: calc(100% / 4);
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.ups-icons .icon-wrapper .item:not(:last-child)::after{
+	position: absolute;
+	content: '';
+	top: 0;
+	right: 0;
+	width: 102px;
+	height: 1px;
+	background: #000000;
+	-webkit-transform: translate(60px,85px) rotate(90deg);
+	    -ms-transform: translate(60px,85px) rotate(90deg);
+	        transform: translate(60px,85px) rotate(90deg);
+}
+.ups-icons .icon-wrapper .item .icon{
+	max-width: 165px;
+	width: 100%;
+	height: 165px;
+	margin: 0 auto 68px;
+}
+.ups-icons .icon-wrapper .item .title{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 34px;
+	text-align: center;
+	letter-spacing: 0.9px;
+	text-transform: capitalize;
+	color: #000000;
+}
+@media(max-width:991.98px){
+	.ups-icons .icon-wrapper .item .icon{
+		max-width: 140px;
+		height: 140px;
+	}
+	.ups-icons .icon-wrapper .item .title {
+	    font-size: 20px;
+	    line-height: 25px;
+	}
+}
+@media(max-width:768.98px){
+	.ups-icons .icon-wrapper .inner-wrap {
+	    max-width: 600px;
+    	-ms-flex-wrap: wrap;
+    	    flex-wrap: wrap;
+	}
+	.ups-icons .icon-wrapper .item{
+		max-width: calc(100% / 2);
+	}
+	.ups-icons .icon-wrapper .item:nth-child(1),
+	.ups-icons .icon-wrapper .item:nth-child(2){
+		margin-bottom: 30px;
+	}
+	.ups-icons .icon-wrapper .item:not(:last-child)::after{
+		display: none;
+	}
+	.ups-icons .icon-wrapper .item .icon{
+		max-width: 120px;
+		height: 120px;
+		margin: 0 auto 28px;
+	}
+	.ups-icons .icon-wrapper .item .title {
+		font-size: 18px;
+		line-height: 24px;
+	}
+}
