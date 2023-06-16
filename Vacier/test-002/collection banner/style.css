@@ -1,0 +1,243 @@
+body {
+    opacity: 0;
+    visibility: hidden;
+}
+
+body.loaded {
+    opacity: 1;
+    visibility: visible;
+}
+
+.va-02 [data-section-type="promo-grid"] .promo-grid .flex-grid__item {
+    width: 100%;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+}
+
+.va-02 [data-section-type="promo-grid"] .flex-grid__item--89056c93-c74a-41ef-bd36-3b6854246c85 .promo-grid__container--tint:before,
+.va-02 [data-section-type="promo-grid"] .flex-grid__item--3507d5db-4025-47eb-9d9f-42e7fdb74b27 .promo-grid__container--tint:before {
+    background: #fff;
+}
+
+.va-02 [data-section-type="promo-grid"] .page-width {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+}
+
+.va-02 [data-section-type="promo-grid"] .promo-grid .type-banner:nth-child(2) .promo-grid__container .type-banner__content {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.va-02 [data-section-type="promo-grid"] .promo-grid .type-banner:nth-child(4) .promo-grid__container .type-banner__content {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.va-02 [data-section-type="promo-grid"] .promo-grid .type-banner .promo-grid__container .type-banner__content .type-banner__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.va-02 [data-section-type="promo-grid"] .promo-grid .type-banner .promo-grid__container .type-banner__content .type-banner__text p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 15px;
+    color: #000000;
+    text-align: left;
+}
+
+.va-02 [data-section-type="promo-grid"] .promo-grid .type-banner .promo-grid__container .type-banner__content .type-banner__text .h3 {
+    font-weight: 700;
+    margin: 0;
+}
+
+.va-02 .banner {
+    /* https://cdn-3.convertexperiments.com/uf/10007840/10007347/vaiMobBanner.png */
+    background: url(https://cdn-3.convertexperiments.com/uf/10007840/10007347/vaiDeskBanner.png) no-repeat;
+    height: 179px;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.va-02 .banner .flex-wrap {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1033px;
+    margin: 0 auto;
+    padding: 0 15px 0;
+
+}
+
+.va-02 .banner .list {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.va-02 .banner .list .list-item {
+    max-width: calc(25% - 65px);
+    width: 100%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+.va-02 .banner .list .list-item img {
+    width: auto;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.va-02 .banner .list .list-item p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+@media (max-width:1920px) {
+    .va-02 [data-section-type="promo-grid"] .page-width {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+        padding: 0;
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width:1220px) {
+    .va-02 .banner .list .list-item {
+        max-width: calc(25% - 5px);
+    }
+
+    .va-02 [data-section-type="promo-grid"] .promo-grid .flex-grid__item {
+        max-width: -webkit-fit-content;
+        max-width: -moz-fit-content;
+        max-width: fit-content;
+    }
+
+    .va-02 [data-section-type="promo-grid"] .promo-grid .type-banner .promo-grid__container .type-banner__content .type-banner__text p {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 15px;
+        color: #000000;
+        text-align: left;
+        margin: 0 0 0 0;
+    }
+
+    .va-02 [data-section-type="promo-grid"] .promo-grid .type-banner .promo-grid__container .type-banner__content .type-banner__text .h3 {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width:768px) {
+    .va-02 .banner {
+        background: url(https://cdn-3.convertexperiments.com/uf/10007840/10007347/vaiMobBanner.png) no-repeat;
+        height: 134px;
+        background-size: 100% 100%;
+        background-position: center;
+        margin-bottom: 10px;
+    }
+
+    .va-02 .banner .list .list-item p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .va-02 [data-section-type="promo-grid"] .promo-grid .flex-grid__item {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .va-02 [data-section-type="promo-grid"] .promo-grid .type-banner:nth-child(4) .promo-grid__container .type-banner__content,
+    .va-02 [data-section-type="promo-grid"] .promo-grid .type-banner:nth-child(2) .promo-grid__container .type-banner__content {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+    }
+
+    .va-02 [data-section-type="promo-grid"] .promo-grid .type-banner .promo-grid__container .type-banner__content .type-banner__text {
+        padding: 0;
+    }
+
+    .va-02 [data-section-type="promo-grid"] .promo-grid .type-banner .promo-grid__container .type-banner__content .type-banner__text p {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 15px;
+        color: #000000;
+    }
+
+}
+
+@media (max-width:750px) {
+    .va-02 .banner .flex-wrap {
+        max-width: 320px;
+
+    }
+
+    .va-02 .banner .list {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .va-02 .banner .list .list-item {
+        max-width: calc(50% - 10px);
+        width: 100%;
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+    }
+
+    .va-02 .banner .list .list-item:not(:nth-child(3)):not(:nth-child(4)) {
+        margin-bottom: 18px;
+    }
+
+    .va-02 .banner .list .list-item img {
+        width: auto;
+        height: 18px;
+    }
+}
+
+@media (max-width:371px) {
+    .va-02 [data-section-type="promo-grid"] .promo-grid .type-banner .promo-grid__container .type-banner__content .type-banner__text p {
+        font-size: 11px;
+        line-height: 15px;
+    }
+}
+
+@media (max-width:346px) {
+    .va-02 [data-section-type="promo-grid"] .promo-grid .type-banner .promo-grid__container .type-banner__content .type-banner__text p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+}

@@ -51,6 +51,7 @@
 
 .vs-03 #shopify-section-header .section-header .free-ship-box .client-title {
     text-align: left;
+    color:#313131;
 }
 
 .vs-03 .checkout_item_block .checkout_buy_row>div {
@@ -60,7 +61,8 @@
 
 .vs-03 .review-card {
     padding: 10px 20px;
-    background: url(https://iili.io/H4ojGzQ.png) no-repeat;
+    /* background: url(https://iili.io/H4ojGzQ.png) no-repeat; */
+    background: #ECF8FF;
     height: 100%;
     background-size: 100% 100%;
 }
@@ -68,6 +70,12 @@
 .vs-03 .review-card>img {
     margin: 0 auto;
     display: block;
+}
+.vs-03 .free-ship-box .client-img{
+width:40px;
+}
+.vs-03 .free-ship-box .client-img.Shipping_{
+width:60px;
 }
 
 .vs-03 .review-card>img+p {
@@ -77,13 +85,13 @@
     line-height: 30px;
     text-align: center;
     text-transform: capitalize;
-    color: #FFFFFF;
+    color: #000000;
     margin: 0 auto;
     padding-bottom: 8px;
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #000;
 }
 
 .vs-03 .review-card img.card-img-top {
@@ -97,7 +105,7 @@
     font-size: 20px;
     line-height: 22px;
     text-transform: capitalize;
-    color: #FFFFFF;
+    color: #000;
 
 }
 
@@ -106,7 +114,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 25px;
-    color: #FFFFFF;
+    color: #000;
 }
 
 .vs-03 .review-card .card-body>span {
@@ -114,7 +122,7 @@
     font-size: 15px;
     line-height: 25px;
     text-transform: capitalize;
-    color: #FFFFFF;
+    color: #000;
     text-align: right;
     display: block;
 }
@@ -179,6 +187,12 @@
 }
 
 @media (max-width:766.98px) {
+    .vs-03 .free-ship-box .client-img{
+    width:40px;
+    }
+    .vs-03 .free-ship-box .client-img.Shipping_{
+    width:40px;
+    }
 
     .vs-03 .checkout_item_block .checkout_buy_row>div {
         max-width: 100% !important;
@@ -192,7 +206,8 @@
     }
 
     .vs-03 .review-card {
-        background: url(https://iili.io/H4ITx0N.png) no-repeat;
+        /* background: url(https://iili.io/H4ITx0N.png) no-repeat; */
+        background: #ECF8FF;
         background-size: 100% 100%;
         background-position: right;
         border-radius: 8px;
@@ -225,7 +240,8 @@
 
 @media (max-width:450px) {
     .vs-03 .review-card {
-        background: url(https://iili.io/H4ITx0N.png) no-repeat;
+        /* background: url(https://iili.io/H4ITx0N.png) no-repeat; */
+        background: #ECF8FF;
         background-size: cover;
         background-position: right;
         border-radius: 8px;
