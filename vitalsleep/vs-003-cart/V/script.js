@@ -91,7 +91,7 @@
                 </div>
             </div>
             <div class="client-col" bis_skin_checked="1">
-                <div class="client-img" bis_skin_checked="1"><img
+                <div class="client-img Shipping_" bis_skin_checked="1"><img
                         src="https://cdn-3.convertexperiments.com/uf/10007840/10007257/1685950559two.png"
                         alt="Free Same Day Shipping"></div>
                 <div class="client-text" bis_skin_checked="1">
@@ -120,8 +120,8 @@
  
   <div class="card-body">
     <img class="card-img-top" src="https://cdn-3.convertexperiments.com/uf/10007840/10007257/1685953796yellowstar.png" alt="Rating">
-    <h4 class="card-title">Vitalsleep is vital</h4>
-    <p class="card-text">My husband uses this wonderful product! His snoring was not good for his own health and it was keeping me awake at night. From the very first night of using Vitalsleep he has had not snored! Incredible!!</p>
+    <h4 class="card-title">VitalSleep is vital</h4>
+    <p class="card-text">My husband uses this wonderful product! His snoring was not good for his own health and it was keeping me awake at night. From the very first night of using Vitalsleep he has had not snored!</p>
     <span>- Denise D.</span>
   </div>
 </div>`)
