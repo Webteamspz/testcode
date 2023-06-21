@@ -42,13 +42,13 @@ convert.$(document).ready(function() {
             var others4 = convert.$('.lineItem-' + index + ' .productDetailcartpage span:eq(10)').text();
             var proText;
             if(others2 == ""){
-            	proText = '<div class="product-info-wrapper"><p class="color">Colour : ' + color + '</p><p class="color">Size : ' + size + '</p><p class="others">' + others1 + '' + others2 + ' | ' + others3 + ' | ' + others4 + '</p></div>';
+            	proText = '<div class="product-info-wrapper"><p class="color">Colour : ' + color + '</p><p class="color">Size : ' + size + ' | ' + others1 + '</p><p class="others">' + others2 + ' | ' + others3 + ' | ' + others4 + '</p></div>';
             }else if(others3 == ""){
-            	proText = '<div class="product-info-wrapper"><p class="color">Colour : ' + color + '</p><p class="color">Size : ' + size + '</p><p class="others">' + others1 + ' | ' + others2 + '' + others3 + ' | ' + others4 + '</p></div>';
+            	proText = '<div class="product-info-wrapper"><p class="color">Colour : ' + color + '</p><p class="color">Size : ' + size + ' | ' + others1 + '</p><p class="others">' + others2 + '' + others3 + ' | ' + others4 + '</p></div>';
             }else if(others4 == ""){
-            	proText = '<div class="product-info-wrapper"><p class="color">Colour : ' + color + '</p><p class="color">Size : ' + size + '</p><p class="others">' + others1 + ' | ' + others2 + ' | ' + others3 + '' + others4 + '</p></div>';
+            	proText = '<div class="product-info-wrapper"><p class="color">Colour : ' + color + '</p><p class="color">Size : ' + size + ' | ' + others1 + '</p><p class="others">' + others2 + ' | ' + others3 + '' + others4 + '</p></div>';
             }else{
-            	proText = '<div class="product-info-wrapper"><p class="color">Colour : ' + color + '</p><p class="color">Size : ' + size + '</p><p class="others">' + others1 + ' | ' + others2 + ' | ' + others3 + ' | ' + others4 + '</p></div>';
+            	proText = '<div class="product-info-wrapper"><p class="color">Colour : ' + color + '</p><p class="color">Size : ' + size + ' | ' + others1 + '</p><p class="others">' + others2 + ' | ' + others3 + ' | ' + others4 + '</p></div>';
             }
             convert.$(proText).insertAfter('.lineItem-' + index + ' .productDetailcartpage');
             convert.$('.lineItem-' + index + ' .cart_content_info.middle-section > h5').append('<img class="remove" src="https://iili.io/HSIsSR9.png" alt="remove icon">');
