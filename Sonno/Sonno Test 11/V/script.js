@@ -59,6 +59,11 @@ convert.$(document).ready(function() {
 	            convert.$('.lineItem-' + index + ' .custom-wrap').append(convert.$('.lineItem-' + index + ' .cartpagemattress > .Productcartprice'));
 	            convert.$('.lineItem-' + index + ' .custom-wrap .Productcartprice > .youSavedPrice').insertAfter(convert.$('.lineItem-' + index + ' .custom-wrap'));
 	        }
+            convert.$('.lineItem-' + index + ' #mattfont').html('<label for="add-mattress"><span><img src="https://iili.io/HP30AsR.png" alt="Add Mattress">Add Mattress And Save</span> <input id="add-mattress" type="checkbox"/></label>');
+            convert.$('body').on('click', '.lineItem-' + index + ' #mattfont label[for="add-mattress"] input', function(){
+	        	var isChecked = convert.$(this).prop('checked');
+	        	isChecked ? convert.$('.lineItem-' + index + ' #myRadioGroup label:eq(0) input').click() : convert.$('.lineItem-' + index + ' #myRadioGroup label:eq(1) input').click();
+	        });
         });
         if (width < 481) {
             convert.$('.insinstall_ment_div:eq(0)').insertBefore(".custom_checkout.mobilebutton");
@@ -72,10 +77,10 @@ convert.$(document).ready(function() {
         	}
         }, 100);
         convert.$('.cart-section .container.main.content form#cart_form p.install_ment_para').html('Flexible Payment Options With <img class="logoSpan_1" src="https://iili.io/Hr1Hjh7.png"> <span style="background-color:0" class="info_icon_blue">i</span><br/> at checkout');
-        convert.$('#mattfont').html('<label for="add-mattress"><span><img src="https://iili.io/HP30AsR.png" alt="Add Mattress">Add Mattress And Save</span> <input id="add-mattress" type="checkbox"/></label>');
-        convert.$('body').on('click', '#mattfont label[for="add-mattress"] input', function(){
-        	var isChecked = convert.$(this).prop('checked');
-        	isChecked ? convert.$('#myRadioGroup label:eq(0) input').click() : convert.$('#myRadioGroup label:eq(1) input').click();
-        });
+        // convert.$('#mattfont').html('<label for="add-mattress"><span><img src="https://iili.io/HP30AsR.png" alt="Add Mattress">Add Mattress And Save</span> <input id="add-mattress" type="checkbox"/></label>');
+        // convert.$('body').on('click', '#mattfont label[for="add-mattress"] input', function(){
+        // 	var isChecked = convert.$(this).prop('checked');
+        // 	isChecked ? convert.$('#myRadioGroup label:eq(0) input').click() : convert.$('#myRadioGroup label:eq(1) input').click();
+        // });
     }
 });
