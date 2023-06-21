@@ -18,7 +18,7 @@ body.sonno-test-11 .custom-wrap button.variant_modal{position:relative!important
 body.sonno-test-11 .custom-wrap .product-plus span{font-weight:700!important;font-size:20px!important;color:#fff!important;line-height:26px!important;height:30px;width:30px}
 body.sonno-test-11 .custom-wrap .product-minus span{font-weight:700!important;font-size:29px!important;color:#fff!important;line-height:23px!important;height:30px;width:30px}
 body.sonno-test-11 .custom-wrap .product-minus .icon-minus:before{display:none}
-body.sonno-test-11 #cart_form .product-quantity-box button.btn.btn-info.btn-.variant_modal{-webkit-box-shadow:none;box-shadow:none;background:#fff!important;margin-right:10px;border:1px solid #14324a;color:#14324a!important}
+body.sonno-test-11 #cart_form .product-quantity-box button.btn.btn-info.btn-.variant_modal{-webkit-box-shadow:none;box-shadow:none;background:#fff!important;margin-right:10px;border:1px solid #14324a;color:#14324a!important;font-size:12px}
 body.sonno-test-11 #cart_form .product-quantity-box button.btn.btn-info.btn-.variant_modal:hover{background:#275981!important;border:1px solid #275981;color:#fff!important}
 @media(max-width:768.98px){
 body.sonno-test-11 .custom-wrap{max-width:365px;margin:0 auto;padding:0 8px}
@@ -26,7 +26,7 @@ body.sonno-test-11 .custom-wrap .product-quantity-box{max-width:255px;width:100%
 body.sonno-test-11 .custom-wrap .Productcartprice{margin:5px 0}
 body.sonno-test-11 .custom-wrap .Productcartprice{max-width:100px;width:100%;padding:0}
 body.sonno-test-11 .custom-wrap .Productcartprice p{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}
-body.sonno-test-11 .custom-wrap .Productcartprice p span{font-weight:700;max-width:100%!important;width:100%!important;margin-right:0!important;text-align:right!important}
+body.sonno-test-11 .custom-wrap .Productcartprice p span{font-size:16px;line-height:21px;font-weight:700;max-width:100%!important;width:100%!important;margin-right:0!important;text-align:right!important}
 body.sonno-test-11 .custom-wrap .Productcartprice p span:first-child{font-weight:400;font-size:11px;line-height:19px;-webkit-text-decoration-line:line-through;text-decoration-line:line-through;color:#999}
 body.sonno-test-11 .cart-section .container.main.content form#cart_form .price-wrapper{max-width:156px;font-size:17px;line-height:21px}
 }
@@ -43,7 +43,7 @@ body.sonno-test-11 .cart_content_info h5>img{cursor:pointer;position:absolute;to
 body.sonno-test-11 .cart_content_info h5>img:hover{opacity:.8}
 body.sonno-test-11 .cart-section .productDetailcartpage{display:none!important}
 body.sonno-test-11 .cart-section .container.main.content form#cart_form .product-info-wrapper{padding-right:20px}
-body.sonno-test-11 .cart-section .container.main.content form#cart_form .product-info-wrapper p{font-size:17px!important;line-height:25px!important;font-weight:400;text-align:left;float:none!important;margin:0;color:#7c7c7c}
+body.sonno-test-11 .cart-section .container.main.content form#cart_form .product-info-wrapper p{font-size:17px!important;line-height:25px!important;font-weight:400;text-align:left;float:none!important;margin:0;color:#2B2B2B}
 @media(max-width:900px){
 body.sonno-test-11 .cart_content_info h5>img{width:12px;height:15px}
 body.sonno-test-11 .cart-section .container.main.content form#cart_form .product-info-wrapper p{font-size:14px!important;line-height:19px!important}
@@ -145,9 +145,10 @@ body.sonno-test-11 .cartpagemattress.removeMattSection{margin:0}
 body.sonno-test-11 #ppmattress .pp-mattress-inner{padding:0 15px 0 8px!important}
 body.sonno-test-11 .cartpagemattress.removeMattSection .product_offers_detail{width:100%}
 body.sonno-test-11 .cartpagemattress.removeMattSection div#complete_hide div#mattfont{width:100%;background:0 0;padding:0;margin:0}
-body.sonno-test-11 .cartpagemattress.removeMattSection div#complete_hide div#mattfont label input[type=checkbox]{position:absolute;right:0;top:6px;border-radius:4px;width:25px;height:23px;min-height:23px;border:2px solid #14324a}
+body.sonno-test-11 .cartpagemattress.removeMattSection div#complete_hide div#mattfont label input[type=checkbox]{position:absolute;right:0;top:0px;border-radius:4px;width:25px;height:23px;min-height:23px;border:2px solid #14324a}
 body.sonno-test-11 .cartpagemattress.removeMattSection div#complete_hide div#mattfont label input[type=checkbox]:checked::after{left:7px}
-body.sonno-test-11 .cartpagemattress.removeMattSection div#complete_hide div#mattfont label{position:relative;padding-bottom:20px;top:8px;line-height:15px}
+body.sonno-test-11 .cartpagemattress.removeMattSection div#complete_hide div#mattfont label{position:relative;padding-bottom:10px;top:8px;line-height:15px;font-size:11px}
+body.sonno-test-11 .cart-section .container.main.content form#cart_form .section.clearfix.lineItemContainerOuter .assembly_buttons.mobileDivAsssembly_btns .assemblyButton_innerdiv{font-size:11px}
 }
 @media(max-width:510.98px){
 body.sonno-test-11 .cartpagemattress.removeMattSection .products_offer_right-detail .add_item_left_btm button{margin-top:12px}
@@ -166,7 +167,7 @@ body.sonno-test-11 .cartpagemattress.removeMattSection .product_offers_detail .s
 body.sonno-test-11 .cart-section .container.main.content{max-width:500px;width:100%}
 body.sonno-test-11 .cart-section .container.main.content form#cart_form .section .five.columns{width:100%;max-width:100%;padding:44px 0 0!important;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 body.sonno-test-11 .cart-section .container.main.content form#cart_form .section .five.columns a{width:100%;max-width:257px;height:100%;max-height:inherit;min-height:inherit}
-body.sonno-test-11 span.offonProduct{top:7px}
+body.sonno-test-11 span.offonProduct{top:7px;font-size:12px;line-height:17px}
 body.sonno-test-11 .cart_content_info h5{position:absolute;top:10px;left:50%;width:100%;text-align:center;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);font-weight:700;font-size:16px;line-height:20px}
 body.sonno-test-11 .cart-section .container.main.content form#cart_form .section.clearfix.lineItemContainerOuter .eleven{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 body.sonno-test-11 .cart-section .container.main.content form#cart_form .product-info-wrapper{max-width:400px;margin:20px auto;padding:0 10px}
@@ -195,4 +196,6 @@ body.sonno-test-11 .cartpagemattress.removeMattSection .product_offers_detail .P
 }
 @media(max-width:480.98px){
 body.sonno-test-11 .tp-contetnt{top:5px}
+body.sonno-test-11 .cart_content_info h5{font-size:12px;top:5px}
+body.sonno-test-11 .cart-section .container.main.content form#cart_form h1{font-size:19px;line-height:30px}
 }
