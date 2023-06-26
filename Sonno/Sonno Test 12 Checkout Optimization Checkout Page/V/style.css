@@ -32,6 +32,7 @@
 .sonnoCheckoutInfoBarItems{width:28%}
 .sonnoCheckoutInfoBarItems.sonnoCheckoutInfoBarItemsShipping{width:23%}
 .sonnoCheckoutInfoBarItems.sonnoCheckoutInfoBarItemsPayment{width:35%}
+.sonnoCheckoutInfoBarContent p{text-align:left}
 }
 @media(max-width:389.98px){
 .sonnoCheckoutInfoBarContent p{font-size:9px;padding-left:7px}
@@ -92,12 +93,13 @@ div[data-step=thank_you] .section__header{background:0 0!important}
 .sonnoCheckoutBannerWrap .inner-wrap .banner-right-content .right-img{max-width:117px;width:100%;height:73px}
 .sonnoCheckoutBannerWrap .inner-wrap .banner-right-content .reviews img{max-width:142px;width:100%;height:22px;margin-right:19px}
 .sonnoCheckoutBannerWrap .inner-wrap .banner-right-content .reviews .title{font-size:21px;font-weight:700;line-height:26px;color:#000;margin:0}
+.sonno-checkout-v2 .step__footer__previous-link .icon-svg--color-accent,.sonno-checkout-v2 .step__footer__previous-link-content{color:#333}
 @media(max-width:1366px){
 .sonnoCheckoutBannerWrap .inner-wrap{max-width:100%;padding:0 3%}
 }
 @media(max-width:749.98px){
 .sonnoCheckoutBannerWrap{padding:8.5px 0}
-.sonnoCheckoutBannerWrap .inner-wrap .main-logo{max-width:86px;height:35px;margin-bottom:8px}
+.sonnoCheckoutBannerWrap .inner-wrap .main-logo{max-width:62px;height:25px;margin-bottom:8px}
 }
 .sonno-checkout-v2 .sidebar{color:#333}
 .sonno-checkout-v2 .sidebar::after{background:#f7f7f7!important}
@@ -112,13 +114,14 @@ div[data-step=thank_you] .section__header{background:0 0!important}
 .sonno-checkout-v2 .icon-wrapper .inner-wrap .list-item .img-block{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;max-width:40px;width:100%}
 .sonno-checkout-v2 .icon-wrapper .inner-wrap .list-item .img-block img{max-width:50%;width:100%;margin-right:10px}
 .sonno-checkout-v2 .icon-wrapper .inner-wrap .list-item p{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;font-size:14px;font-weight:400;line-height:15px;text-align:left;margin:0}
-.sonno-checkout-v2 .icon-wrapper .inner-wrap .list-item p strong{font-weight:700}
+.sonno-checkout-v2 .icon-wrapper .inner-wrap .list-item p strong{font-size:15px;line-height:23px;color:#1b1b1b;font-weight:700}
 .sonno-checkout-v2 .main__header .icon-wrapper{display:none}
 .sonno-checkout-v2 .step__footer+.tp-slider{display:none}
 @media(max-width:1199.98px){
 .sonno-checkout-v2 .icon-wrapper .inner-wrap .list-item{max-width:30%}
 .sonno-checkout-v2 .icon-wrapper .inner-wrap .list-item:first-child{max-width:38%}
 .sonno-checkout-v2 .icon-wrapper .inner-wrap .list-item p{font-size:12px}
+.sonno-checkout-v2 .icon-wrapper .inner-wrap .list-item p strong{font-size:13px}
 }
 @media(max-width:999.98px){
 .sonno-checkout-v2 .main,.sonno-checkout-v2 .sidebar{width:100%;padding-right:0;padding-left:0}
@@ -137,6 +140,7 @@ div[data-step=thank_you] .section__header{background:0 0!important}
 .sonnoCheckoutBannerWrap .inner-wrap .banner-right-content .right-img{display:none}
 .sonno-checkout-v2 .icon-wrapper .inner-wrap .list-item .img-block{max-width:30px}
 .sonno-checkout-v2 .icon-wrapper .inner-wrap .list-item p{font-size:10px}
+.sonno-checkout-v2 .icon-wrapper .inner-wrap .list-item p strong{font-size:11px}
 .sonno-checkout-v2 .icon-wrapper{padding:0}
 .sonnoCheckoutInfoBarWrap{padding:20px 0}
 }
@@ -144,25 +148,26 @@ div[data-step=thank_you] .section__header{background:0 0!important}
 .sonno-checkout-v2 .icon-wrapper .inner-wrap .list-item .img-block{max-width:20px}
 .sonno-checkout-v2 .icon-wrapper .inner-wrap .list-item .img-block img{margin-right:6px}
 .sonno-checkout-v2 .icon-wrapper .inner-wrap .list-item p{font-size:9px}
+.sonno-checkout-v2 .icon-wrapper .inner-wrap .list-item p strong{font-size:10px}
 .sonnoCheckoutBannerWrap .inner-wrap .banner-right-content .reviews img{max-width:65px;height:10px}
 .sonnoCheckoutBannerWrap .inner-wrap .banner-right-content .reviews .title{font-size:11px;line-height:15px}
 .sonnoCheckoutInfoBarWrap{padding:10px 0}
 }
 .sonno-checkout-v2 .tp-slider{padding:20px 0}
 .sonno-checkout-v2 .tp-slider .inner-wrap{max-width:1309px;width:100%;margin:0 auto;padding:0 20px 0 21px}
-.sonno-checkout-v2 .tp-slider .slider-wrap .slick-track{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.sonno-checkout-v2 .tp-slider .slider-wrap .slick-track{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch}
 .sonno-checkout-v2 .tp-slider .slider-wrap .slick-arrow{top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);z-index:2}
 .sonno-checkout-v2 .tp-slider .slider-wrap .slick-prev{left:-15px}
 .sonno-checkout-v2 .tp-slider .slider-wrap .slick-next{right:-15px}
 .sonno-checkout-v2 .tp-slider .slider-wrap .slick-dots{bottom:-40px}
-.sonno-checkout-v2 .tp-slider .slider-wrap .slick-dots li{width:10px;height:10px}
-.sonno-checkout-v2 .tp-slider .slider-wrap .slick-dots li button{padding:0;width:10px;height:10px}
-.sonno-checkout-v2 .tp-slider .slider-wrap .slick-dots li button:before{content:'';background:#d9d9d9;width:10px;height:10px;border-radius:50%}
+.sonno-checkout-v2 .tp-slider .slider-wrap .slick-dots li{width:16px;height:16px}
+.sonno-checkout-v2 .tp-slider .slider-wrap .slick-dots li button{padding:0;width:16px;height:16px}
+.sonno-checkout-v2 .tp-slider .slider-wrap .slick-dots li button:before{content:'';background:#d9d9d9;width:16px;height:16px;border-radius:50%}
 .sonno-checkout-v2 .tp-slider .slider-wrap .slick-dots li.slick-active button:before{background:#f89201}
 .sonno-checkout-v2 .tp-slider .slider-wrap .slick-arrow:hover{opacity:.8}
 .sonno-checkout-v2 .tp-slider .slider-wrap .slick-arrow.slick-disabled{display:none!important}
 .sonno-checkout-v2 .tp-slider .slider-wrap .slick-arrow::before{display:none!important}
-.sonno-checkout-v2 .tp-slider .slider-wrap .slider-item{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;padding:15px;margin:0 10px;border-radius:5px;background:#fff;border:1px solid #d9d9d9;min-height:164px}
+.sonno-checkout-v2 .tp-slider .slider-wrap .slider-item{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;padding:15px;margin:0 10px;border-radius:5px;background:#fff;border:1px solid #d9d9d9;height:auto}
 .sonno-checkout-v2 .tp-slider .slider-wrap .slider-item .tp-title{font-style:normal;font-weight:700;font-size:15px;line-height:21px;color:#000;margin:0 0 5px}
 .sonno-checkout-v2 .tp-slider .slider-wrap .slider-item img{max-width:92px;width:100%;margin:0 0 8px}
 .sonno-checkout-v2 .tp-slider .slider-wrap .slider-item .tp-content{font-style:normal;font-weight:400;font-size:14px;line-height:20px;color:#000;margin:0 0 8px}
