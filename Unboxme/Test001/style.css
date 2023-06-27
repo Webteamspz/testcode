@@ -1,0 +1,152 @@
+.unboxme-01 #search{
+    display: list-item !important;
+    border: none;
+    right: 144px;
+    left: unset;
+    top: 15px;
+    background: #fff;
+    width: 30%;
+    margin-left: auto;
+    z-index: 0;
+    position: absolute !important;
+    padding: 0;
+    height: 40px;
+    margin: 0 10px;
+}
+.unboxme-01 .search-for-typo{
+display: flex;
+align-items: center;
+}
+
+
+.unboxme-01 .search-for-typo .typed-text{
+margin-left:4px;
+}
+.unboxme-01 .search-for-typo svg{
+margin:0 5px 0 0;
+}
+.unboxme-01 .search-wraper-wb{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    width:100%;
+    background: #fff;
+    max-width: 346px;
+    /* display: none; */
+    /* top: 18px; */
+}
+.unboxme-01 .search-wraper-wb .search-result{
+    margin-top: 10px;
+border: 0;
+}
+.unboxme-01 .search-wraper-wb .search-field__clear{
+    right: 8px;
+}
+.unboxme-01 .search-wraper-wb .search-field__input{
+    margin: 0 !important;
+    width: 100%;
+}
+
+.unboxme-01 .search-wraper-wb .search-field__input{
+    height: 100%;
+    padding: 10px 0 10px 20px;
+    border: 1px solid #333;
+}
+
+.unboxme-01 .nav__item.header_account_tmb + .nav__item { 
+display: none;
+}
+
+@media (max-width:1310px) {
+    .unboxme-01 #search{
+        width: 27%;
+        margin: 0;
+    }    
+}
+/* .unboxme-01 .search-wraper-wb  .search-field__input::-webkit-input-placeholder{
+    font-size: 0;
+    color: transparent;
+}
+.unboxme-01 .search-wraper-wb  .search-field__input::-moz-placeholder{
+    font-size: 0;
+    color: transparent;
+}
+.unboxme-01 .search-wraper-wb  .search-field__input:-ms-input-placeholder{
+    font-size: 0;
+    color: transparent;
+}
+.unboxme-01 .search-wraper-wb  .search-field__input::-ms-input-placeholder{
+    font-size: 0;
+    color: transparent;
+}
+.unboxme-01 .search-wraper-wb  .search-field__input::placeholder{
+    font-size: 0;
+    color: transparent;
+} */
+/* typing */
+.unboxme-01.show-modal{
+    overflow: hidden;
+}
+.show-modal.unboxme-01 .modal-overlay.new {
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    height: 100%;
+    background: #00000045;
+    top: 66px;
+}
+
+.unboxme-01 .search-wrapper {
+    position: absolute;
+    width: 100%;
+    top: 10px;
+    left: 20px;
+    pointer-events: none;
+    display: none;
+}
+
+.unboxme-01.show-modal  .search-wrapper {
+    display: none;
+}
+.unboxme-01 .typed-text{
+    font-weight: 700;
+}
+.section-steps{
+    padding:6rem 0 ;
+}
+.faves{
+    padding:0 0 4rem;
+}
+/* .unboxme-01 [href="/collections/popular-suggestions"]{
+display: none;
+} */
+@media (max-width:991.98px) {
+.unboxme-01 #search{
+background:none;
+}
+    .unboxme-01 .search-wraper-wb{
+    padding: 10px 15px;
+    max-width: 100%;
+} 
+.unboxme-01 .search-field__clear {
+    right: 4px;
+    top: 4px;
+}   
+.unboxme-01 .shopify-section.section-steps .steps__title {
+    font-size: 2.2rem;
+}
+}
+
+@media (max-width:611.98px){
+   .unboxme-01 .shopify-section.section-steps .steps-main .step__items .step__item .step__title{
+    width: 100%;
+    text-align: left;
+    max-width: 19.625rem;
+}
+.unboxme-01 .shopify-section.section-steps .steps-main .step__items .step__item .step__description{
+    width: 100%;
+    text-align: left;
+    max-width: 19.625rem;
+}
+}

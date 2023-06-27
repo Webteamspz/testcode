@@ -1,0 +1,139 @@
+.vss-hide  {
+    display: none !important;
+}
+
+.vss-sticky {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    padding: 20px 10px;
+    z-index: 90001;
+    box-shadow: 1px -2px 12px #bcbcbc;
+}
+.vss-product-cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+span.vss-size-label {
+    font-size: 18px;
+    font-weight: bold;
+}
+    .vss-product-cta {
+        width: 100%;
+    }
+    .vss-product-size-options {
+        width: 40%;
+    }
+    .vss-product-size-options {
+        width: 45%;
+    }
+    .vss-size-selected-container {
+        width: 140px;
+        border: 1px solid #bcbcbc;
+        padding: 10px 20px;
+        border-radius: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        cursor: pointer;
+    }
+    span.vss-size-selected-option {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .vss-size-selected-container svg {
+        width: 16px;
+        height: 16px;
+        margin-left: 6px;
+    }
+    .vss-size-options-container {
+        margin-top: 10px;
+        margin-right: 6px;
+        position: relative;
+    }
+    .vss-add-to-cart-cta {
+        width: 53%;
+    }
+    body .vss-add-to-cart-cta .add-me-to-cart {
+        margin: 0;
+        border-radius: 36px;
+        height: 46px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #fff !important;
+        margin-top: 32px;
+        text-transform: uppercase;
+    }
+    ul.vss-size-options {
+        position: absolute;
+        bottom: 100%;
+        width: 100%;
+        left: 0;
+        background: #fff;
+        border: 1px solid #bcbcbc;
+        transform: translateY(-4px);
+    }
+    li.vss-size-option {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
+        /* justify-content: center; */
+        font-size: 18px;
+    }
+    li.vss-size-option.vss-men-size:first-of-type {
+        border-bottom: 1px solid #bcbcbc;
+    }
+    .vss-sticky .vss-product-info {
+        display: none !important;
+    }
+    @media screen and (min-width: 768px) {
+        .vss-sticky {
+            top: 0;
+            bottom: unset;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 40px;
+        }
+        .vss-sticky .vss-product-info {
+            display: flex !important;
+            align-items: center;
+            justify-content: flex-start;
+            width: 50%;
+        }
+        img.vss-product-image {
+            width: 80px;
+            height: auto;
+            max-height: 80px;
+            margin-right: 16px;
+        }
+        .vss-product-cta {
+            width: 50%;
+        }
+        .vss-product-name {
+            color: #012169;
+            font-size: 22px;
+        }
+        .vss-size-options {
+            top: 100% !important;
+            bottom: unset !important;
+            transform: translateY(4px) !important;
+        }
+        .vss-product-size-options {
+            width: 180px;
+        }
+        .vss-add-to-cart-cta {
+            width: 350px;
+            padding-left: 16px;
+        }
+        body .vss-add-to-cart-cta .add-me-to-cart {
+            width: 100%;
+            min-width: 100%;
+            margin-right: 15px;
+        }
+    }
