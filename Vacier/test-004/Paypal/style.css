@@ -1,0 +1,118 @@
+.va-3 .slide-card-section.filter_exp {
+    padding: 30px 15px 20px;
+}
+
+.va-3 .slide-card-section.filter_exp .slide-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    text-align: center;
+    width: 1386px;
+    margin: 0 auto;
+}
+
+.va-3 .slide-card-section.filter_exp::-webkit-scrollbar {
+    height: 0 !important;
+}
+
+.va-3 .slide-card-section.filter_exp .slide-item {
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: 1px solid #E7E7E7;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    pointer-events: all;
+    cursor: pointer;
+    max-width: 170px;
+    width: 100%;
+}
+
+.va-3 .slide-card-section.filter_exp .slide-item .img-box+div {
+    text-align: center;
+    width: 100%;
+}
+
+.va-3 .slide-card-section.filter_exp .slide-item:hover {
+    border: 1px solid #222222;
+}
+
+.va-3 .slide-card-section.filter_exp .slide-item.active {
+    border: 1px solid #222222;
+}
+
+.va-3 .slide-card-section.filter_exp .slide-item .img-box {
+    margin-right: 5px;
+    max-width: 65px;
+    height: 65px;
+}
+
+.va-3 .slide-card-section.filter_exp .slide-item div h4 {
+    color: #525152;
+    font-size: 12px;
+    margin: 0;
+    letter-spacing: normal;
+    font-weight: 300;
+    line-height: 15.48px;
+}
+
+.va-3 .slide-card-section.filter_exp .slide-item.active h4 {
+    font-weight: 500;
+}
+
+@media (max-width:1386px) {
+    .va-3 .slide-card-section.filter_exp {
+        overflow-x: scroll;
+    }
+
+}
+
+@media (max-width:767px) {
+    .va-3 .slide-card-section.filter_exp .slide-card {
+        width: calc(16.66% + 520px);
+    }
+
+    .va-3 .slide-card-section.filter_exp .img-box {
+        max-width: 71px;
+        margin: 0 auto;
+
+    }
+
+    .va-3 .slide-card-section.filter_exp .slide-item {
+        text-decoration: none;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        border: 1px solid #E7E7E7;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        pointer-events: all;
+        cursor: pointer;
+        max-width: 85px;
+        width: 100%;
+    }
+
+    .va-3 .slide-card-section.filter_exp .slide-item .img-box {
+        margin-right: 0px;
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .va-3 .slide-card-section.filter_exp .slide-item div h4 {
+        font-size: 10px;
+        margin: 0;
+        padding: 0px 5px 2px;
+    }
+
+}

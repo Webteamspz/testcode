@@ -124,7 +124,8 @@
         }
         onUrlChange();
 
-        convert.$(slider).insertBefore('#MainContent');
+        convert.$(slider).insertBefore('.collection-grid__wrapper .collection-filter');
+        convert.$('.collection-grid__wrapper .collection-filter-wrapper').insertBefore('.collection-grid__wrapper .collection-filter');
         checkerBoard();
     }
     // initalizing the test
