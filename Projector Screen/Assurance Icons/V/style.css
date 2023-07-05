@@ -1,0 +1,134 @@
+.ps-test-v1 .icon-wrapper{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	max-width: 100%;
+	width: 100%;
+	margin: 0 auto;
+    background: #fff;
+    border: 1px solid #D0D2D8;
+    padding: 25px;
+    border-radius: 4px;
+    margin: 30px 0;
+    -webkit-box-shadow: 4px 4px 0 3px #009AF0;
+            box-shadow: 4px 4px 0 3px #009AF0;
+}
+.ps-test-v1 .icon-wrapper .icon-item{
+	max-width: calc(100% / 5);
+	width: 100%;
+	padding: 0 15px;
+}
+.ps-test-v1.old-layout .icon-wrapper .icon-item{
+	padding: 0 10px;
+}
+.ps-test-v1 .icon-wrapper .icon-item .icon-img{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+	max-width: 62px!important;
+	width: 100%;
+    height: auto;
+	margin: 0 auto 7px;
+}
+.ps-test-v1.old-layout .icon-wrapper .icon-item .icon-img{
+	max-width: 48px!important;	
+}
+.ps-test-v1 .icon-wrapper .icon-item .icon-title{
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 23px;
+	text-align: center;
+	color: #000000;
+	margin: 0 auto 5px;
+}
+.ps-test-v1 .icon-wrapper .icon-item .icon-info{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	text-align: center;
+	color: #000000;
+	margin: 0 auto;
+}
+@media(max-width:1026.98px){
+	.ps-test-v1.old-layout .icon-wrapper{
+	    -webkit-box-orient: vertical;
+	    -webkit-box-direction: normal;
+	        -ms-flex-direction: column;
+	            flex-direction: column;
+	    -webkit-box-align: center;
+	        -ms-flex-align: center;
+	            align-items: center;
+        max-width: 100%;
+    	margin: 20px auto;
+	}
+	.ps-test-v1.old-layout .icon-wrapper .icon-item {
+	    max-width: 100%;
+	    display: -webkit-box;
+	    display: -ms-flexbox;
+	    display: flex;
+	    padding: 0;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+	}
+	.ps-test-v1.old-layout .icon-wrapper .icon-item:not(:last-child){
+		margin-bottom: 30px;
+	}
+	.ps-test-v1.old-layout .icon-wrapper .icon-item .icon-img{
+		margin: 0 17px 0 0;
+	}
+	.ps-test-v1.old-layout .icon-wrapper .icon-item .icon-info-wrap{
+		width: 100%;
+	}
+	.ps-test-v1.old-layout .icon-wrapper .icon-item .icon-title,
+	.ps-test-v1.old-layout .icon-wrapper .icon-item .icon-info{
+		text-align: left;
+	}
+}
+@media(max-width:991.98px){
+	.ps-test-v1 .icon-wrapper .icon-item{
+	    padding: 0 5px;
+	}
+}
+@media(max-width:767.98px){
+	.ps-test-v1 .icon-wrapper{
+	    -webkit-box-orient: vertical;
+	    -webkit-box-direction: normal;
+	        -ms-flex-direction: column;
+	            flex-direction: column;
+	    -webkit-box-align: center;
+	        -ms-flex-align: center;
+	            align-items: center;
+        max-width: calc(100% - 26px);
+    	margin: 20px auto;
+	}
+	.ps-test-v1.old-layout .icon-wrapper{
+		max-width: calc(100% - 26px);
+	}
+	.ps-test-v1 .icon-wrapper .icon-item {
+	    max-width: 100%;
+	    display: -webkit-box;
+	    display: -ms-flexbox;
+	    display: flex;
+	    padding: 0;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+	}
+	.ps-test-v1 .icon-wrapper .icon-item:not(:last-child){
+		margin-bottom: 30px;
+	}
+	.ps-test-v1 .icon-wrapper .icon-item .icon-img{
+		margin: 0 17px 0 0;
+	}
+	.ps-test-v1 .icon-wrapper .icon-item .icon-info-wrap{
+		width: 100%;
+	}
+	.ps-test-v1 .icon-wrapper .icon-item .icon-title,
+	.ps-test-v1 .icon-wrapper .icon-item .icon-info{
+		text-align: left;
+	}
+}
