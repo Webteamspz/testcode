@@ -1,0 +1,56 @@
+.unboxme-test-v1 .single-product__col:first-child{
+	display: none!important;
+}
+.unboxme-test-v1 .main-slider{
+	position: relative;
+}
+.unboxme-test-v1 #custom-gallery .swiper-pagination{
+	display: none;
+}
+.unboxme-test-v1 #custom-gallery .swiper-slide img{
+    -webkit-clip-path: inset(0 0 0 0 round 30px);
+            clip-path: inset(0 0 0 0 round 30px);
+}
+.unboxme-test-v1 #custom-tumbs{
+    margin: 23px auto;
+}
+.unboxme-test-v1 #custom-tumbs .swiper-slide img{
+    border-radius: 0.3125rem;
+    cursor: pointer;
+}
+.unboxme-test-v1 #custom-tumbs .swiper-slide.swiper-slide-thumb-active img{
+    border: 0.125rem solid #CA4544;
+}
+.unboxme-test-v1 .main-slider .swiper-button-prev{
+	top: 50%;
+	left: -12.5px;
+	cursor: pointer;
+}
+.unboxme-test-v1 .main-slider .swiper-button-next{
+	top: 50%;
+	right: -12.5px;
+	cursor: pointer;
+}
+.unboxme-test-v1 .main-slider .swiper-button-prev:hover,
+.unboxme-test-v1 .main-slider .swiper-button-next:hover{
+	opacity: 0.8;
+}
+.unboxme-test-v1 .main-slider .swiper-button-prev:after,
+.unboxme-test-v1 .main-slider .swiper-button-next:after{
+	border: none !important;
+	background-image: url('https://iili.io/HiQNfB2.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 42px !important;
+	height: 42px !important;
+    -webkit-transform: translate(-50%,-50%) !important;
+        -ms-transform: translate(-50%,-50%) !important;
+            transform: translate(-50%,-50%) !important;
+}
+.unboxme-test-v1 .main-slider .swiper-button-next:after{
+	background-image: url('https://iili.io/HiZkUWG.png');
+}
+.unboxme-test-v1 .single-product > a {
+    top: 180px!important;
+}
