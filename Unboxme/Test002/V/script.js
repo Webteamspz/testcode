@@ -5,6 +5,7 @@ var convertInterval = setInterval(() => {
             const loadTest = () => {
                 var oldSliderData = [];
                 var slides = '';
+                var currentCount = 1;
                 convert.$(".pdp-galleries > .swiper-container.swiper-initialized .swiper-slide").each(function() {
                     var slideURL = convert.$(this).find('img').attr('src');
                     var slideAlt = convert.$(this).find('img').attr('alt');
@@ -37,28 +38,39 @@ var convertInterval = setInterval(() => {
                     pagination: {
                         el: ".swiper-pagination",
                         clickable: true,
+                        renderBullet: function(index, className) {
+                            return '<span class="' + className + '">' + (index + 1) + '</span>';
+                        },
                     },
                     thumbs: {
                         swiper: swiper1,
                     },
-                }).on('slideChange', function(e) {
-                    convert.$('.count-wrap .current').text(swiper2.activeIndex);
+                    on: {
+                        afterInit: function() {
+                            currentCount = convert.$('#custom-gallery .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active').text();
+                        },
+                    },
                 });
-                var totalCount = convert.$('.unboxme-test-v1 #custom-gallery .swiper-pagination .swiper-pagination-bullet').length;
-                var currentCount = 1;
+                swiper2.on('slideChange', function(e) {
+                    currentCount = convert.$('#custom-gallery .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active').text();
+                    convert.$('.count-wrap .current').text(currentCount);
+                });
+                currentCount = convert.$('#custom-gallery .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active').text();
+                var totalCount = convert.$('#custom-gallery .swiper-pagination .swiper-pagination-bullet').length;
                 var extraText = convert.$('#image-desc').text();
                 convert.$('.count-wrap .current').text(currentCount);
                 convert.$('.count-wrap .total').text(totalCount);
                 convert.$('.count-wrap .extra-text').text(extraText);
-                convert.$('body').on('click', '.swiper-button-prev', function() {
-                    currentCount == 1 ? currentCount = totalCount : currentCount--;
+                var clickFirst = 0;
+                convert.$('body').on('click', '.main-slider .swiper-button-prev', function() {
+                    clickFirst == 0 ? clickFirst = 1 : currentCount == 1 ? currentCount = totalCount : currentCount--;
                     convert.$('.count-wrap .current').text(currentCount);
-                    convert.$('#custom-gallery .swiper-pagination .swiper-pagination-bullet:nth-child(' + currentCount + ')').click();
+                    swiper2.slideTo(currentCount);
                 });
-                convert.$('body').on('click', '.swiper-button-next', function() {
-                    currentCount < totalCount ? currentCount++ : currentCount = 1;
+                convert.$('body').on('click', '.main-slider .swiper-button-next', function() {
+                    clickFirst == 0 ? clickFirst = 1 : currentCount < totalCount ? currentCount++ : currentCount = 1;
                     convert.$('.count-wrap .current').text(currentCount);
-                    convert.$('#custom-gallery .swiper-pagination .swiper-pagination-bullet:nth-child(' + currentCount + ')').click();
+                    swiper2.slideTo(currentCount);
                 });
             }
             let isMob = window.matchMedia("(max-width: 768px)").matches;
