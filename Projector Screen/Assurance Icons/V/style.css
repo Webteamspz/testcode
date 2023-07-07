@@ -78,6 +78,7 @@
 		margin-bottom: 30px;
 	}
 	.ps-test-v1.old-layout .icon-wrapper .icon-item .icon-img{
+		max-width: 65px!important;
 		margin: 0 17px 0 0;
 	}
 	.ps-test-v1.old-layout .icon-wrapper .icon-item .icon-info-wrap{
@@ -86,6 +87,7 @@
 	.ps-test-v1.old-layout .icon-wrapper .icon-item .icon-title,
 	.ps-test-v1.old-layout .icon-wrapper .icon-item .icon-info{
 		text-align: left;
+		margin: 0 auto;
 	}
 }
 @media(max-width:991.98px){
@@ -122,6 +124,7 @@
 		margin-bottom: 30px;
 	}
 	.ps-test-v1 .icon-wrapper .icon-item .icon-img{
+		max-width: 65px!important;
 		margin: 0 17px 0 0;
 	}
 	.ps-test-v1 .icon-wrapper .icon-item .icon-info-wrap{
@@ -130,5 +133,6 @@
 	.ps-test-v1 .icon-wrapper .icon-item .icon-title,
 	.ps-test-v1 .icon-wrapper .icon-item .icon-info{
 		text-align: left;
+		margin: 0 auto;
 	}
 }
