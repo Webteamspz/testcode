@@ -1,23 +1,25 @@
-.vs-nf-test .section-4,
-.vs-nf-test .section-9{
+.vs-nf-test .section-4{
 	padding-top: 50px;
+}
+.vs-nf-test .section-9{
+	padding-top: 0;
 }
 .vs-nf-test .section-6 .snoring_relief {
     margin-top: 0px;
 }
-.vs-nf-test .section-10 .work-padding {
+.vs-nf-test .section-9 .work-padding {
     padding-bottom: 50px;
 }
-.vs-nf-test .section-14 .satisfaction_section .gurented{
+.vs-nf-test .section-13 .satisfaction_section .gurented{
     margin-top: 30px;
 }
-.vs-nf-test .section-14 .satisfaction_section{
+.vs-nf-test .section-13 .satisfaction_section{
 	margin-bottom: 0;
 }
-.vs-nf-test .section-11 > section{
+.vs-nf-test .section-10 > section{
 	padding-bottom: 0px!important;
 }
-.vs-nf-test .section-11 > section .container .text_center{
+.vs-nf-test .section-10 > section .container .text_center{
 	margin-bottom: 0 !important;
 }
 .vs-nf-test .section-3 .work-padding {
@@ -29,8 +31,7 @@
 	.vs-nf-test .section-7 > section{
 		padding-top: 0!important;
 	}
-	.vs-nf-test .section-4,
-	.vs-nf-test .section-9{
+	.vs-nf-test .section-4{
 		padding-top: 10px;
 	}
 	.vs-nf-test .section-10 .work-padding {

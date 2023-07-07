@@ -13,9 +13,10 @@ convert.$(document).ready(() => {
     	classAllocation('#MainContent > .shopify-section','section');
     	orderChange('.section-4','.section-2','after');
     	orderChange('.section-3','.section-14','after');
-    	orderChange('.section-10','.section-4','after');
-    	orderChange('.section-11','.section-3','before');
-    	orderChange('.section-14','.section-13','before');
+    	orderChange('.section-9','.section-4','after');
+    	orderChange('.section-3','.section-13','after');
+    	orderChange('.section-10','.section-3','before');
+    	orderChange('.section-13','.section-12','before');
     };
     if (!convert.$('body').hasClass('vs-nf-test')) {
         convert.$('body').addClass('vs-nf-test');
